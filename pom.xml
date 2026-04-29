@@ -117,6 +117,19 @@
             </subprojects>
         </profile>
 
+    
+        <profile>
+            <id>with-ike-commonmark-attributes</id>
+            <activation>
+                <file>
+                    <exists>${project.basedir}/ike-commonmark-attributes/pom.xml</exists>
+                </file>
+            </activation>
+            <subprojects>
+                <subproject>ike-commonmark-attributes</subproject>
+            </subprojects>
+        </profile>
+
     </profiles>
 
 </project>
