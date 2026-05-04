@@ -41,7 +41,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/reasoner
+    branch: main
     version: "3.0.7-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on: []
@@ -50,7 +50,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/reasoner
+    branch: main
     version: "1.127.2-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on:
@@ -61,7 +61,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: feature/reasoner
+    branch: main
     version: "1.14.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on:
@@ -72,7 +72,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/reasoner
+    branch: main
     version: "0.1.0-SNAPSHOT"
     groupId: dev.ikm.ike
     depends-on:
@@ -83,7 +83,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/reasoner
+    branch: main
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
@@ -98,7 +98,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/reasoner
+    branch: main
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
