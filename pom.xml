@@ -24,7 +24,7 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>16</version>
+        <version>55</version>
         <relativePath/>
     </parent>
 
@@ -34,6 +34,21 @@
     <packaging>pom</packaging>
 
     <name>ike-komet-ws</name>
+
+    <distributionManagement>
+        <!-- Explicit <site> URL — inheriting ike-parent outside the
+             ike-platform reactor pulls in a site URL template tuned
+             for in-reactor modules (https://ike.network/ike-platform/...).
+             ike-issues#380 realigned that template; ike-issues#383 added
+             an enforcer that fails the build when an external consumer
+             leaves the in-reactor URL inherited. See ike-parent/CLAUDE.md
+             ("Inheriting projects MUST declare their own
+             <distributionManagement><site>"). -->
+        <site>
+            <id>ike-site</id>
+            <url>https://ike.network/${project.artifactId}/</url>
+        </site>
+    </distributionManagement>
 
     <build>
         <plugins>
