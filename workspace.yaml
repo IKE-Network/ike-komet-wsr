@@ -42,7 +42,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "1dc013eda03c341836be1b81c8b14b3575c03734"
+    sha: "2fcd2f453452676af91310153fc200d6878b84d8"
     version: "3.0.7-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on: []
@@ -52,7 +52,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "7f1bd94be81541c59e941d198fbe10c1f5f5a7ce"
+    sha: "15ae26ac6a3c32bc9b2192f521503dc9fca90de0"
     sha: "7f1bd94be81541c59e941d198fbe10c1f5f5a7ce"
     sha: "7f1bd94be81541c59e941d198fbe10c1f5f5a7ce"
     version: "1.127.2-SNAPSHOT"
@@ -66,7 +66,7 @@ subprojects:
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
     branch: main
-    sha: "e82ae44df17510b48011af95b12f01d2dffa3d61"
+    sha: "fe2a9bcabc1ea992d2b32700c0eaabb0eea043bb"
     sha: "e82ae44df17510b48011af95b12f01d2dffa3d61"
     sha: "e82ae44df17510b48011af95b12f01d2dffa3d61"
     sha: "5c6e817e83d90bf345c61a0e84ed07e792aa9134"
@@ -81,7 +81,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "7cf5c8e4d257a5fbbd35eb21aec3950c9d76784e"
+    sha: "1bafc59ea40c95c75241cdf1b9c41bcb8bebaafa"
     sha: "7cf5c8e4d257a5fbbd35eb21aec3950c9d76784e"
     sha: "7cf5c8e4d257a5fbbd35eb21aec3950c9d76784e"
     version: "0.1.0-SNAPSHOT"
@@ -95,7 +95,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "f2d1b8dcb2a4b971b41bebd11312237ae2d6e542"
+    sha: "341a53d01b822211629ea2a6f865607b534d9aef"
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
@@ -111,7 +111,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "750a61e47753e61b5f2d83cd20bf729fc3775c8d"
+    sha: "d52230cc94e8265eb150fac71ecf87415c26e7e1"
     sha: "750a61e47753e61b5f2d83cd20bf729fc3775c8d"
     sha: "750a61e47753e61b5f2d83cd20bf729fc3775c8d"
     sha: "f4404efcc48518e401899b2bcd2e9095467ce60a"
