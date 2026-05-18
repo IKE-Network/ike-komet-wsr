@@ -28,7 +28,7 @@ subprojects:
     depends-on:
       - subproject: komet-bom
         relationship: build
-
+    sha: "677af256c1ceb67d6c820ab0da7b34fd3e85f76a"
 # Optional: IntelliJ project settings shared across collaborators.
 # Uncomment and set to have `ws:scaffold-upgrade-*` enforce these values in
 # .idea/misc.xml on every run. Useful when the project uses
@@ -42,7 +42,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "2fcd2f453452676af91310153fc200d6878b84d8"
+    sha: "8faf039985dd78ce05cf5f3bcb32ac0663bf3595"
     version: "3.0.7-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on: []
@@ -52,7 +52,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "7f1bd94be81541c59e941d198fbe10c1f5f5a7ce"
+    sha: "6af1289fcfc981ffae1bff407e524ca2ac37306d"
     version: "1.127.2-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on:
@@ -64,7 +64,7 @@ subprojects:
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
     branch: main
-    sha: "5c6e817e83d90bf345c61a0e84ed07e792aa9134"
+    sha: "cf15ddaff4087aa3826b1bdf5d03f68171c59609"
     version: "1.14.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on:
@@ -76,7 +76,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "7cf5c8e4d257a5fbbd35eb21aec3950c9d76784e"
+    sha: "ec253565988fbd8d124a126086ec56ce737dee2a"
     version: "0.1.0-SNAPSHOT"
     groupId: dev.ikm.ike
     depends-on:
@@ -88,7 +88,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "341a53d01b822211629ea2a6f865607b534d9aef"
+    sha: "bceeb9bdb30c0ffc0dd37f7117a50e3f83491ef8"
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
@@ -104,7 +104,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "f4404efcc48518e401899b2bcd2e9095467ce60a"
+    sha: "48a3f8989f0c4b12e56573687a3cede3cfaa801c"
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
