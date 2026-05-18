@@ -46,7 +46,6 @@ ws꞉*.md
 !.gitattributes
 # BEGIN ike-managed
 # Scaffold-tracked files (whitelisted out of the catch-all ignore)
-!versions-upgrade-rules.yaml
 !.ike/
 !.ike/scaffold.lock
 !.mvn/
