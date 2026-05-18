@@ -49,6 +49,9 @@ ws꞉*.md
 !versions-upgrade-rules.yaml
 !.ike/
 !.ike/scaffold.lock
+!.mvn/
+!.mvn/extensions.xml
+!.mvn/maven.config
 # END ike-managed
 
 # ike:* goal reports
