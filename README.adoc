@@ -10,9 +10,9 @@ toc::[]
 
 [source,bash]
 ----
-git clone https://github.com/<org>/ike-komet-ws.git
+git clone https://github.com/IKE-Network/ike-komet-ws.git
 cd ike-komet-ws
-mvn ws:init         # <1>
+mvn ws:scaffold-init   # <1>
 mvn clean install   # <2>
 ----
 <1> Clones all subproject repos in dependency order; installs Maven
@@ -28,5 +28,5 @@ All `ws:` goals appear in the IntelliJ Maven tool window
 ----
 mvn ws:overview          # Workspace overview
 mvn ws:add -Drepo=      # Add a subproject repo
-mvn ws:scaffold-upgrade-draft   # Preview scaffold upgrades
+mvn ws:scaffold-draft   # Preview scaffold upgrades
 ----
