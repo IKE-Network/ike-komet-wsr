@@ -35,6 +35,17 @@
 
     <name>ike-komet-ws</name>
 
+    <!-- Locally declared so the cascade's coordinate-to-repository
+         lookup resolves a real repo URL, not the artifactId-appended
+         path Maven would otherwise inherit from ike-parent (and in
+         turn ike-base-parent). See IKE-Network/ike-issues#496. -->
+    <scm>
+        <connection>scm:git:https://github.com/IKE-Network/ike-komet-ws.git</connection>
+        <developerConnection>scm:git:git@github.com:IKE-Network/ike-komet-ws.git</developerConnection>
+        <url>https://github.com/IKE-Network/ike-komet-ws</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <distributionManagement>
         <!-- Explicit <site> URL — inheriting ike-parent outside the
              ike-platform reactor pulls in a site URL template tuned
