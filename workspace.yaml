@@ -1,12 +1,12 @@
 # ── managed: ws:scaffold-init regenerates this block ──
-# workspace.yaml — ike-komet-ws
+# workspace.yaml — ike-komet-wsr
 # ══════════════════════════════════
 #
-# ike-komet-ws
+# ike-komet-wsr
 #
 # Bootstrap:
-#   git clone https://github.com/IKE-Network/ike-komet-ws.git
-#   cd ike-komet-ws
+#   git clone https://github.com/IKE-Network/ike-komet-wsr.git
+#   cd ike-komet-wsr
 #   mvn ws:scaffold-init
 #   mvn clean install
 # ── /managed ──

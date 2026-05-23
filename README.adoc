@@ -1,8 +1,8 @@
-= ike-komet-ws
+= ike-komet-wsr
 :toc:
 :toc-placement!:
 
-ike-komet-ws
+ike-komet-wsr
 
 toc::[]
 
@@ -10,8 +10,8 @@ toc::[]
 
 [source,bash]
 ----
-git clone https://github.com/IKE-Network/ike-komet-ws.git
-cd ike-komet-ws
+git clone https://github.com/IKE-Network/ike-komet-wsr.git
+cd ike-komet-wsr
 mvn ws:scaffold-init   # <1>
 mvn clean install   # <2>
 ----

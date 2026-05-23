@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ike-komet-ws
+  ike-komet-wsr
 
   Inherits from ike-parent to get plugin version management for
   ike-maven-plugin and ike-workspace-maven-plugin automatically.
@@ -29,20 +29,20 @@
     </parent>
 
     <groupId>local.aggregate</groupId>
-    <artifactId>ike-komet-ws</artifactId>
+    <artifactId>ike-komet-wsr</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>ike-komet-ws</name>
+    <name>ike-komet-wsr</name>
 
     <!-- Locally declared so the cascade's coordinate-to-repository
          lookup resolves a real repo URL, not the artifactId-appended
          path Maven would otherwise inherit from ike-parent (and in
          turn ike-base-parent). See IKE-Network/ike-issues#496. -->
     <scm>
-        <connection>scm:git:https://github.com/IKE-Network/ike-komet-ws.git</connection>
-        <developerConnection>scm:git:git@github.com:IKE-Network/ike-komet-ws.git</developerConnection>
-        <url>https://github.com/IKE-Network/ike-komet-ws</url>
+        <connection>scm:git:https://github.com/IKE-Network/ike-komet-wsr.git</connection>
+        <developerConnection>scm:git:git@github.com:IKE-Network/ike-komet-wsr.git</developerConnection>
+        <url>https://github.com/IKE-Network/ike-komet-wsr</url>
         <tag>HEAD</tag>
     </scm>
 
