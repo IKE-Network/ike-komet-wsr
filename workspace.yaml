@@ -25,6 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
+    branch: feature/Pattern_Nav_12
     version: "1.0.0-SNAPSHOT"
     groupId: network.ike.platform
     depends-on:
@@ -43,7 +44,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "8faf039985dd78ce05cf5f3bcb32ac0663bf3595"
     version: "3.0.7-SNAPSHOT"
     groupId: dev.ikm.komet
@@ -53,7 +54,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "6af1289fcfc981ffae1bff407e524ca2ac37306d"
     version: "1.127.2-SNAPSHOT"
     groupId: dev.ikm.tinkar
@@ -65,7 +66,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "cf15ddaff4087aa3826b1bdf5d03f68171c59609"
     version: "1.14.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
@@ -77,7 +78,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "ec253565988fbd8d124a126086ec56ce737dee2a"
     version: "0.1.0-SNAPSHOT"
     groupId: dev.ikm.ike
@@ -89,7 +90,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "bceeb9bdb30c0ffc0dd37f7117a50e3f83491ef8"
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
@@ -105,7 +106,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "48a3f8989f0c4b12e56573687a3cede3cfaa801c"
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
