@@ -35,7 +35,7 @@
     <extension>
         <groupId>network.ike.tooling</groupId>
         <artifactId>ike-workspace-extension</artifactId>
-        <version>7</version>
+        <version>9</version>
     </extension>
     <!-- ── /managed ── -->
 </extensions>
