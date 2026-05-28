@@ -90,7 +90,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     sha: "67a915b4acbdc7f1d8b6910b949a6d2d0eb8a18d"
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
@@ -106,7 +106,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     sha: "d106ea48a6f68f82a7695c9d958292b09b4c7e0f"
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
