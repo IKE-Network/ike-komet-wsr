@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     version: "1.0.0-SNAPSHOT"
     groupId: network.ike.platform
     depends-on:
@@ -44,7 +44,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     sha: "8faf039985dd78ce05cf5f3bcb32ac0663bf3595"
     version: "3.0.7-SNAPSHOT"
     groupId: dev.ikm.komet
@@ -54,7 +54,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     sha: "6af1289fcfc981ffae1bff407e524ca2ac37306d"
     version: "1.127.2-SNAPSHOT"
     groupId: dev.ikm.tinkar
@@ -66,7 +66,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     sha: "cf15ddaff4087aa3826b1bdf5d03f68171c59609"
     version: "1.14.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
@@ -78,7 +78,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/Pattern_Nav_12
+    branch: main
     sha: "ec253565988fbd8d124a126086ec56ce737dee2a"
     version: "0.1.0-SNAPSHOT"
     groupId: dev.ikm.ike
