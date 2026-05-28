@@ -25,6 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
+    branch: main
     version: "1.0.0-SNAPSHOT"
     groupId: network.ike.platform
     depends-on:
@@ -89,7 +90,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "bceeb9bdb30c0ffc0dd37f7117a50e3f83491ef8"
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
@@ -105,7 +106,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/Pattern_Nav_12
     sha: "48a3f8989f0c4b12e56573687a3cede3cfaa801c"
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
