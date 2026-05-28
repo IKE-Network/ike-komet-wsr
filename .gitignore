@@ -34,9 +34,11 @@
 # Small, stable project-wide settings shared across collaborators.
 # compiler.xml and vcs.xml are excluded — they regenerate per
 # Maven reload or per workspace membership.
+# misc.xml is also excluded — it tracks per-machine Maven profile
+# selection (e.g. fast-dev vs. signArtifacts), which a developer
+# flips locally and should not propagate via VCS.
 !.idea/
 !.idea/.gitignore
-!.idea/misc.xml
 !.idea/kotlinc.xml
 !.idea/encodings.xml
 !.idea/jarRepositories.xml
