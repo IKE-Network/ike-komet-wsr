@@ -91,7 +91,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "979c51d1faa6e001a247586ef7f447b571b370d7"
+    sha: "7528e4fed3c9aae7366360737a87b2a8d588fbd7"
     version: "1.59.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
@@ -107,7 +107,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "faa4bfa911a6c89c1639a735b676205911ce5219"
+    sha: "0eb3105e279f82b42b9b7c0ab44910ba005125c7"
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
