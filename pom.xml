@@ -156,6 +156,19 @@
             </subprojects>
         </profile>
 
+    
+        <profile>
+            <id>with-komet-claude-plugin</id>
+            <activation>
+                <file>
+                    <exists>${project.basedir}/komet-claude-plugin/pom.xml</exists>
+                </file>
+            </activation>
+            <subprojects>
+                <subproject>komet-claude-plugin</subproject>
+            </subprojects>
+        </profile>
+
     </profiles>
 
 </project>
