@@ -123,14 +123,11 @@ subprojects:
     version: "3.0.0-SNAPSHOT"
     groupId: dev.ikm.komet
     depends-on:
+      - subproject: ike-commonmark-attributes
+        relationship: build
       - subproject: komet-bom
         relationship: build
       - subproject: tinkar-core
         relationship: build
       - subproject: tinkar-composer
         relationship: build
-      - subproject: ike-commonmark-attributes
-        relationship: build
-      - subproject: komet-claude-plugin
-        relationship: build
-        version-property: komet-claude-plugin.version
