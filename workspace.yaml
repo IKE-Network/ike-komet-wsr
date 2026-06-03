@@ -40,7 +40,6 @@ subprojects:
     branch: feature/claude-assistant
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
-    parent: ike-commonmark-attributes
     depends-on:
       - subproject: komet-bom
         relationship: build
@@ -132,3 +131,6 @@ subprojects:
         relationship: build
       - subproject: ike-commonmark-attributes
         relationship: build
+      - subproject: komet-claude-plugin
+        relationship: build
+        version-property: komet-claude-plugin.version
