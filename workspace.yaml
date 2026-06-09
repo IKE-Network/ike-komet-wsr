@@ -44,6 +44,8 @@ subprojects:
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
+      - subproject: tinkar-composer
+        relationship: build
 
   komet-example-rules-plugin:
     description: >
