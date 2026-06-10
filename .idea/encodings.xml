@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/complex-clause-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/complex-clause-plugin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-commonmark-attributes/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-commonmark-attributes/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-commonmark-attributes/src/main/resources-filtered" charset="UTF-8" />
@@ -10,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/komet-claude-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-claude-plugin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-desktop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-example-rules-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-example-rules-plugin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/artifact/src/main/java" charset="UTF-8" />
@@ -36,6 +40,8 @@
     <file url="file://$PROJECT_DIR$/komet/knowledge-layout/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/knowledge-layout/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/knowledge-layout/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet/komet-markdown-richtext/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet/komet-markdown-richtext/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/komet-terms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/komet-terms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/komet-terms/src/main/resources-filtered" charset="UTF-8" />

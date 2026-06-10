@@ -55,6 +55,7 @@ under **Plugins > ws** and **Plugins > ike**.
 | `ws:feature-finish-squash-publish` | Squash merge (single commit) |
 | `ws:feature-abandon-draft` | Preview abandoning a feature branch |
 | `ws:feature-abandon-publish` | Delete feature branch across components |
+| `ws:sibling-create` | Clone the workspace into a sibling dir on a feature branch (isolated, Syncthing-safe) |
 
 ## Release & Checkpoint
 

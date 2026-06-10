@@ -51,6 +51,24 @@ All strategies:
 
 Delete a feature branch without merging.
 
+### Sibling clone: `ws:sibling-create`
+
+Clone the whole workspace into a sibling directory
+(`<workspace>-<feature>`) on `feature/<name>` from inception,
+instead of switching the primary in place. Each component is a
+self-contained clone (`--reference --dissociate` against the
+primary, so large histories are cheap). The primary stays on
+its branch; the sibling is disposable (`rm -rf`) after merge.
+Isolates concurrent work — same-machine or across Syncthing
+machines — so two streams never stage each other's edits.
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `feature` | prompted | Feature name (branch: `feature/<name>`) |
+| `skipVersion` | `false` | Skip version qualification |
+
+Branches and clones stay local (no auto-push).
+
 ---
 
 ## Workspace Lifecycle
