@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "e211a1d6838096157da912457474ae97e392bd63"
     version: 1.0.0-claude-assistant-SNAPSHOT
     groupId: network.ike.platform
@@ -37,7 +37,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/claude-assistant
+    branch: main
     version: 1-claude-assistant-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -52,7 +52,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/claude-assistant
+    branch: main
     version: 1-claude-assistant-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -87,7 +87,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "43e26cd8b9f1b58aeccc46f66716e7b9ecd08997"
     version: 3.0.7-claude-assistant-SNAPSHOT
     groupId: dev.ikm.komet
@@ -97,7 +97,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "fcc4ffc19f202fd6e097cb62133be77ab7d6b606"
     version: 1.127.2-claude-assistant-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -109,7 +109,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "6e42c8042f88079a63fb5ae19cd177277db69d40"
     version: 1.14.0-claude-assistant-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -121,7 +121,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "b31165af5ace4867ce601c71353763a84d7b1d00"
     version: 0.1.0-claude-assistant-SNAPSHOT
     groupId: dev.ikm.ike
@@ -133,7 +133,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "7528e4fed3c9aae7366360737a87b2a8d588fbd7"
     version: 1.59.0-claude-assistant-SNAPSHOT
     groupId: dev.ikm.komet
@@ -149,7 +149,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/claude-assistant
+    branch: main
     sha: "0eb3105e279f82b42b9b7c0ab44910ba005125c7"
     version: 3.0.0-claude-assistant-SNAPSHOT
     groupId: dev.ikm.komet
