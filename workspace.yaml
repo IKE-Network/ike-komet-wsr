@@ -84,7 +84,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: main
-    sha: "951aa31cb7d6ecbfb0ecc7161fc1227d84ee871e"
+    sha: "fe8f3326626dc9cc7f1f1b82b699451841fb4c3e"
     version: "1.43.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on: []
