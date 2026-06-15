@@ -169,6 +169,19 @@
             </subprojects>
         </profile>
 
+    
+        <profile>
+            <id>with-tinkar-schema</id>
+            <activation>
+                <file>
+                    <exists>${project.basedir}/tinkar-schema/pom.xml</exists>
+                </file>
+            </activation>
+            <subprojects>
+                <subproject>tinkar-schema</subproject>
+            </subprojects>
+        </profile>
+
     </profiles>
 
 </project>
