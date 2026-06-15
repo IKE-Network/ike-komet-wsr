@@ -84,6 +84,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: main
+    sha: "951aa31cb7d6ecbfb0ecc7161fc1227d84ee871e"
     version: "1.43.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on: []
@@ -100,7 +101,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "722afb39d468ecc6b18f48ad4a2d810717210ae9"
+    sha: "c356118c026a79cd09a1686203658f581002a1b2"
     version: 3.0.7-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on: []
@@ -110,7 +111,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "019726c5e9cdbcc2ead0ba5290df83a67e795367"
+    sha: "51947c7106fd8026325ad4e2df555bff43708c07"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -134,7 +135,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "6b084035015c56f562a60b19020c0f065e634aa0"
+    sha: "db6178acdbc630b2dc02bce1d3960661460dcc02"
     version: 0.1.0-SNAPSHOT
     groupId: dev.ikm.ike
     depends-on:
@@ -148,7 +149,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "beb4ea2afba0efcc1e043e12861d6bf328683df5"
+    sha: "e9f1f4be2d61705fb76b492b24d1f9ef2e4c4369"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
