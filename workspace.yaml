@@ -149,7 +149,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "e9f1f4be2d61705fb76b492b24d1f9ef2e4c4369"
+    sha: "a163d1781dcfb00b9ed3d5640265f7cc6e15ca0e"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
