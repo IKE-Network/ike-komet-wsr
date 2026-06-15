@@ -101,7 +101,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "c356118c026a79cd09a1686203658f581002a1b2"
+    sha: "35f351ded9f77e01b0270f711b028b4222cc75dd"
     version: 3.0.7-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on: []
