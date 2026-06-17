@@ -5,13 +5,15 @@
   Inherits from ike-parent to get plugin version management for
   ike-maven-plugin and ike-workspace-maven-plugin automatically.
 
-  Every subproject is inside a file-activated profile so the reactor
-  automatically includes only the repos that are physically cloned.
-  Clone more repos and they join the reactor on the next build.
+  Subprojects are declared unconditionally at top level.
+  ike-workspace-extension (registered in .mvn/extensions.xml) prunes
+  entries whose directory is missing from disk before Maven's model
+  validator gets to them — so a fresh clone bootstraps via
+  ws:scaffold-init without manual edits. See IKE-Network/ike-issues#460.
 
   Usage:
     mvn clean install                        # All cloned repos
-    mvn ws:init                              # Clone all repos
+    mvn ws:scaffold-init                     # Clone all repos
     mvn ws:overview                          # Workspace overview
 -->
 <project xmlns="http://maven.apache.org/POM/4.1.0"
@@ -76,112 +78,19 @@
         </plugins>
     </build>
 
-    <!-- Profiles are added by ws:add -->
-    <profiles>
-    
-        <profile>
-            <id>with-komet-bom</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/komet-bom/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>komet-bom</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-tinkar-core</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/tinkar-core/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>tinkar-core</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-tinkar-composer</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/tinkar-composer/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>tinkar-composer</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-rocks-kb</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/rocks-kb/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>rocks-kb</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-komet-desktop</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/komet-desktop/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>komet-desktop</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-ike-commonmark-attributes</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/ike-commonmark-attributes/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>ike-commonmark-attributes</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-komet-claude-plugin</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/komet-claude-plugin/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>komet-claude-plugin</subproject>
-            </subprojects>
-        </profile>
-
-    
-        <profile>
-            <id>with-tinkar-schema</id>
-            <activation>
-                <file>
-                    <exists>${project.basedir}/tinkar-schema/pom.xml</exists>
-                </file>
-            </activation>
-            <subprojects>
-                <subproject>tinkar-schema</subproject>
-            </subprojects>
-        </profile>
-
-    </profiles>
+    <!-- Subprojects are added by ws:add -->
+    <subprojects>
+        <subproject>ike-commonmark-attributes</subproject>
+        <subproject>komet-claude-plugin</subproject>
+        <subproject>komet-example-rules-plugin</subproject>
+        <subproject>complex-clause-plugin</subproject>
+        <subproject>tinkar-schema</subproject>
+        <subproject>komet-bom</subproject>
+        <subproject>tinkar-core</subproject>
+        <subproject>tinkar-composer</subproject>
+        <subproject>rocks-kb</subproject>
+        <subproject>komet</subproject>
+        <subproject>komet-desktop</subproject>
+    </subprojects>
 
 </project>
