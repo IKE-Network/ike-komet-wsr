@@ -38,7 +38,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/view-options-popup
-    sha: "0243f31908afbde9ad708bf3a7938d9818bebf08"
+    sha: "f7f75832ee64d8a9082b7969a0d87fb0c032d4e1"
     version: 1-view-options-popup-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -149,7 +149,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/view-options-popup
-    sha: "a163d1781dcfb00b9ed3d5640265f7cc6e15ca0e"
+    sha: "58a67afc159a5b22b1998d9b7ff8f4c8a3a4e6ad"
     version: 1.59.0-view-options-popup-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
