@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "9a3d07507c9347544e400120934b9e02e387ea4e"
     version: 1.0.0-view-options-popup-SNAPSHOT
     groupId: network.ike.platform
@@ -37,7 +37,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "f7f75832ee64d8a9082b7969a0d87fb0c032d4e1"
     version: 1-view-options-popup-SNAPSHOT
     groupId: network.ike.komet
@@ -53,7 +53,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "ecef31659f78891e63edd250f3f6d5859450f78b"
     version: 1-view-options-popup-SNAPSHOT
     groupId: network.ike.komet
@@ -68,7 +68,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "1b665d7469be7356bd7380adc9291ab729f31e9d"
     version: 1-view-options-popup-SNAPSHOT
     groupId: network.ike.komet
@@ -83,7 +83,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "fe8f3326626dc9cc7f1f1b82b699451841fb4c3e"
     version: 1.43.0-view-options-popup-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -100,7 +100,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "35f351ded9f77e01b0270f711b028b4222cc75dd"
     version: 3.0.7-view-options-popup-SNAPSHOT
     groupId: dev.ikm.komet
@@ -110,7 +110,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "51947c7106fd8026325ad4e2df555bff43708c07"
     version: 1.127.2-view-options-popup-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -122,7 +122,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "db9d9473adbc5c0032e6b2ab116797c2910a42f9"
     version: 1.14.0-view-options-popup-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -134,7 +134,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "db6178acdbc630b2dc02bce1d3960661460dcc02"
     version: 0.1.0-view-options-popup-SNAPSHOT
     groupId: dev.ikm.ike
@@ -148,7 +148,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "58a67afc159a5b22b1998d9b7ff8f4c8a3a4e6ad"
     version: 1.59.0-view-options-popup-SNAPSHOT
     groupId: dev.ikm.komet
@@ -164,7 +164,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/view-options-popup
+    branch: main
     sha: "9b29dd32bc0a19bf12649894bf050ce171782d42"
     version: 3.0.0-view-options-popup-SNAPSHOT
     groupId: dev.ikm.komet
