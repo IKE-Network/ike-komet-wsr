@@ -45,7 +45,11 @@ subprojects:
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
       - subproject: tinkar-composer
+        relationship: build
+      - subproject: komet
         relationship: build
 
   komet-example-rules-plugin:
@@ -61,6 +65,10 @@ subprojects:
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
+      - subproject: komet
+        relationship: build
 
   complex-clause-plugin:
     description: >
@@ -76,7 +84,12 @@ subprojects:
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
+        version-property: tinkar.version
       - subproject: tinkar-composer
+        relationship: build
+      - subproject: komet
         relationship: build
 
   tinkar-schema:
@@ -129,6 +142,9 @@ subprojects:
     depends-on:
       - subproject: komet-bom
         relationship: build
+      - subproject: tinkar-core
+        relationship: build
+        version-property: tinkar-core.version
 
   rocks-kb:
     description: >
@@ -139,9 +155,12 @@ subprojects:
     version: 0.1.0-SNAPSHOT
     groupId: dev.ikm.ike
     depends-on:
+      - subproject: tinkar-schema
+        relationship: build
       - subproject: komet-bom
         relationship: build
-      - subproject: tinkar-schema
+        version-property: komet-bom.version
+      - subproject: tinkar-core
         relationship: build
 
   komet:
@@ -171,11 +190,14 @@ subprojects:
     depends-on:
       - subproject: ike-commonmark-attributes
         relationship: build
+      - subproject: tinkar-schema
+        relationship: build
       - subproject: komet-bom
         relationship: build
+        version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
       - subproject: tinkar-composer
         relationship: build
-      - subproject: tinkar-schema
+      - subproject: komet
         relationship: build
