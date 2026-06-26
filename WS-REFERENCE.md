@@ -98,18 +98,22 @@ Branches and clones stay local (no auto-push).
 
 ## VCS Bridge (Syncthing)
 
+Run on a working set of 1..N — the whole workspace, or a single
+repo with no `workspace.yaml`. See `ws:help` for the per-goal
+single-repo vs. workspace breakdown.
+
 | Goal | Description |
 |------|-------------|
-| `ws:commit-publish` | Commit across repos (`-Dpush=true -Dmessage="..."`) |
-| `ws:push` | Push all subprojects (warns about uncommitted changes) |
-| `ws:sync` | Pull then push across the workspace |
+| `ws:commit-publish` | Commit across the working set (`-Dpush=true -Dmessage="..."`) |
+| `ws:push` | Push the working set (warns about uncommitted changes) |
+| `ws:sync` | Pull then push across the working set |
 | `ws:cleanup-draft` / `-publish` | List/delete merged feature branches |
 
 ---
 
 ## Preflight Validation
 
-Multi-repo goals validate that all subproject working trees are clean
+Workspace goals validate that all subproject working trees are clean
 before starting. If any subproject has uncommitted changes, the goal
 fails immediately with a list of affected repos and files — no partial
 modifications occur.

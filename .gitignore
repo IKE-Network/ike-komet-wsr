@@ -53,6 +53,10 @@ ws꞉*.md
 !.mvn/
 !.mvn/extensions.xml
 !.mvn/maven.config
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
 # END ike-managed
 
 # ike:* goal reports
