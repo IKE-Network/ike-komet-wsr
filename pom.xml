@@ -32,7 +32,7 @@
 
     <groupId>local.aggregate</groupId>
     <artifactId>ike-komet-wsr</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1-datasource-last-selection-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>ike-komet-wsr</name>
