@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/issue-22
+    branch: main
     sha: "75f716deeeac2aa96faf007cc97faaefdff538ff"
     version: 1.0.0-SNAPSHOT
     groupId: network.ike.platform
@@ -37,7 +37,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/issue-22
+    branch: main
     sha: "3e86acc2e956b5e1f7571042317e08d3a12a28ec"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -57,7 +57,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/issue-22
+    branch: main
     sha: "5d4de2aff1cac3df3a2b45df3066d059984743bf"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -76,7 +76,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: feature/issue-22
+    branch: main
     sha: "a2514772598d73456ef1d295d58d305aa45e661f"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -96,7 +96,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/issue-22
+    branch: main
     sha: "914bae4c029bf461f17f336475cb0fa9ff3a3fa9"
     version: 1.43.0-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -113,7 +113,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/issue-22
+    branch: main
     sha: "b522cf06bb7ab56cde63afcd72f5189e197dada3"
     version: 3.0.7-SNAPSHOT
     groupId: dev.ikm.komet
@@ -123,7 +123,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/issue-22
+    branch: main
     sha: "d41af2346f307c8b1e29ad0dc827ca9ed2fd06d0"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -135,7 +135,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: feature/issue-22
+    branch: main
     sha: "eed26fe3c7e2fe9e7442a78418c09f566faeec96"
     version: 1.14.0-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -150,7 +150,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/issue-22
+    branch: main
     sha: "c5de12ae9a7b10d215f712bea088b894c559a136"
     version: 0.1.0-SNAPSHOT
     groupId: dev.ikm.ike
@@ -167,7 +167,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/issue-22
+    branch: main
     sha: "1332de444da738fda149801fd0e08fbf7251b328"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
@@ -183,7 +183,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/issue-22
+    branch: main
     sha: "4b1f7316b6c141d6ec911dbd7e1aad73a4ab987a"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
