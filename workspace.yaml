@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "8d2197a5faad5e5947f550ae00549036028e8901"
     version: 1.0.0-SNAPSHOT
     groupId: network.ike.platform
@@ -37,7 +37,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "0337a82f4e8a4b1930bf7e1c8a11caee61c63dad"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -57,7 +57,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "44498a097a065c03b79f3546802dc494e0ab9d69"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -76,7 +76,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "6a9be54df86e40466b10cc77dcd178e969b5fbfe"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -96,7 +96,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "5208062e21cac8bbcd40129a94801a5b05d38c05"
     version: 1.43.0-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -113,7 +113,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "bac8a12415abb66b183f433151cb05e4220c9160"
     version: 3.0.7-SNAPSHOT
     groupId: dev.ikm.komet
@@ -123,7 +123,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "1e8b93c88bac93fd61d480ed1235422b6deb2c61"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -135,7 +135,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "fd6e321367d56e182f5d36603c3fb2dc5fc31823"
     version: 1.14.0-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -150,7 +150,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "b3b758b075258e4bf9b6f3826aca5bbd3babfe48"
     version: 0.1.0-SNAPSHOT
     groupId: dev.ikm.ike
@@ -167,7 +167,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "229fcb29ffc0369c41bf1638c25826eeccd1d6df"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
@@ -183,7 +183,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/chronology-builder
     sha: "2eed79a566c2e2e53591fe5f28e6ded36bec520b"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
