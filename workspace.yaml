@@ -112,6 +112,17 @@ subprojects:
     depends-on:
       - subproject: tinkar-core
         relationship: build
+
+  ike-knowledge-provider:
+    description: >
+      Chronology-store implementation of the IKE knowledge-pipeline SPI
+    repo: https://github.com/IKE-Network/ike-knowledge-provider.git
+    branch: feature/chronology-builder
+    version: "1-chronology-builder-SNAPSHOT"
+    groupId: network.ike.knowledge
+    depends-on:
+      - subproject: tinkar-core
+        relationship: build
 # Optional: IntelliJ project settings shared across collaborators.
 # Uncomment and set to have `ws:scaffold-upgrade-*` enforce these values in
 # .idea/misc.xml on every run. Useful when the project uses
