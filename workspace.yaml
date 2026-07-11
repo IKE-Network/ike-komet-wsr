@@ -110,6 +110,8 @@ subprojects:
     version: "1-chronology-builder-SNAPSHOT"
     groupId: network.ike.komet
     depends-on:
+      - subproject: ike-knowledge-provider
+        relationship: build
       - subproject: tinkar-core
         relationship: build
 
