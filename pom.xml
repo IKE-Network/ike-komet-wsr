@@ -93,6 +93,7 @@
         <subproject>komet-desktop</subproject>
         <subproject>rich-surface-starter-knowledge</subproject>
         <subproject>ike-knowledge-provider</subproject>
+        <subproject>ike-starter-set</subproject>
     </subprojects>
 
 </project>
