@@ -6,6 +6,20 @@
     <file url="file://$PROJECT_DIR$/ike-commonmark-attributes/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-commonmark-attributes/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-commonmark-attributes/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-knowledge-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-knowledge-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-bindings/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-bindings/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-changeset/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-changeset/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-doc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-doc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-kb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-kb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-terms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/ike-terms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-starter-set/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-bom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-bom/src/main/resources-filtered" charset="UTF-8" />
@@ -80,6 +94,8 @@
     <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-doc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-glossary/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-glossary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-kb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-kb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-terms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/rich-surface-terms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rich-surface-starter-knowledge/src/main/java" charset="UTF-8" />
