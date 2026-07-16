@@ -38,7 +38,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "8b22294ec52654be247ad43bed20e8e096336156"
+    sha: "183127290d074de742423a32a96cd03b1b59934d"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -124,7 +124,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "a2a0e3ecb3d3689d423bc17d6b3f54424efcbd4a"
+    sha: "9b0090168b64793180d92103cef128e149205dbc"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -168,7 +168,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "4365a9816710a3db1734b60afae064da9153ab08"
+    sha: "639226eafbb00cdc5310a061487b8636615e1955"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
@@ -184,7 +184,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "92943874e434f2ae311d2071045f02f6298ae78d"
+    sha: "189fcb008b9cb1db683779ea5ad797f9a81ac8db"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
