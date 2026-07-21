@@ -26,7 +26,7 @@ subprojects:
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
     branch: feature/chronology-builder
-    sha: "8d2197a5faad5e5947f550ae00549036028e8901"
+    sha: "fc0a4e9185e4983c59f08698eb4bc1f2ddbe2007"
     version: 1.0.0-SNAPSHOT
     groupId: network.ike.platform
     depends-on:
@@ -38,7 +38,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/chronology-builder
-    sha: "0337a82f4e8a4b1930bf7e1c8a11caee61c63dad"
+    sha: "b37fdea91ce4480fcae586bdf9705983d09a5ed7"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -58,7 +58,7 @@ subprojects:
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
     branch: feature/chronology-builder
-    sha: "44498a097a065c03b79f3546802dc494e0ab9d69"
+    sha: "6e027fdd8efddad578aa9e0860853be45b0c507a"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -77,7 +77,7 @@ subprojects:
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
     branch: feature/chronology-builder
-    sha: "6a9be54df86e40466b10cc77dcd178e969b5fbfe"
+    sha: "597d30fdb3a1412be220c8854f8164a24465b54d"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -97,7 +97,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: feature/chronology-builder
-    sha: "5208062e21cac8bbcd40129a94801a5b05d38c05"
+    sha: "1d5753ff08ae7edef1cf5c201e05d13f7dc0be08"
     version: 1.43.0-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on: []
@@ -107,6 +107,7 @@ subprojects:
       rich-surface-starter-knowledge subproject.
     repo: git@github.com-graphlet:knowledge-graphlet/rich-surface-starter-knowledge.git
     branch: feature/chronology-builder
+    sha: "8b54eefaa496fccb2d03ca1b0817cf24e7531057"
     version: "1-chronology-builder-SNAPSHOT"
     groupId: network.ike.komet
     depends-on:
@@ -120,6 +121,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: feature/chronology-builder
+    sha: "9529887356efed6301ea7c7dd30adce21f733ace"
     version: "1-chronology-builder-SNAPSHOT"
     groupId: network.ike.knowledge
     depends-on:
@@ -131,6 +133,7 @@ subprojects:
       ike-starter-set subproject.
     repo: https://github.com/IKE-Network/ike-starter-set.git
     branch: feature/chronology-builder
+    sha: "fdcec6c32dd48bca3d11aab7d485eb85b7c7c8c7"
     version: "1-chronology-builder-SNAPSHOT"
     groupId: network.ike.foundation
     depends-on:
@@ -152,7 +155,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: feature/chronology-builder
-    sha: "bac8a12415abb66b183f433151cb05e4220c9160"
+    sha: "19d69cf8f80c0273fa83d917e56c6ec7ee205f7b"
     version: 3.0.7-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on: []
@@ -162,7 +165,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/chronology-builder
-    sha: "1e8b93c88bac93fd61d480ed1235422b6deb2c61"
+    sha: "5197d0b0aae3da19bcb0fc258de003a7fae0e833"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -174,7 +177,7 @@ subprojects:
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
     branch: feature/chronology-builder
-    sha: "fd6e321367d56e182f5d36603c3fb2dc5fc31823"
+    sha: "9e621a7481d4b1ddbf1a54722886eea1b3b748cc"
     version: 1.14.0-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -189,7 +192,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: feature/chronology-builder
-    sha: "b3b758b075258e4bf9b6f3826aca5bbd3babfe48"
+    sha: "502159db23a8dc5f3382db7326687027a36aaa4a"
     version: 0.1.0-SNAPSHOT
     groupId: dev.ikm.ike
     depends-on:
@@ -206,7 +209,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/chronology-builder
-    sha: "229fcb29ffc0369c41bf1638c25826eeccd1d6df"
+    sha: "ac0684eff60859e292ce0dc589d3d5571c372584"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
@@ -222,7 +225,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: feature/chronology-builder
-    sha: "2eed79a566c2e2e53591fe5f28e6ded36bec520b"
+    sha: "eb3637cedb8606452fcf6c36b56db135793141b1"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
