@@ -133,7 +133,7 @@ subprojects:
       ike-starter-set subproject.
     repo: https://github.com/IKE-Network/ike-starter-set.git
     branch: feature/chronology-builder
-    sha: "fdcec6c32dd48bca3d11aab7d485eb85b7c7c8c7"
+    sha: "e4ab18816abfe6ef4ad9858b1851fa6c24f43979"
     version: "1-chronology-builder-SNAPSHOT"
     groupId: network.ike.foundation
     depends-on:
