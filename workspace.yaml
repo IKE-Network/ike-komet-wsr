@@ -113,6 +113,8 @@ subprojects:
     depends-on:
       - subproject: ike-knowledge-provider
         relationship: build
+      - subproject: ike-starter-set
+        relationship: build
       - subproject: tinkar-core
         relationship: build
 
