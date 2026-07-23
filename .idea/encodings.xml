@@ -30,6 +30,8 @@
     <file url="file://$PROJECT_DIR$/komet-example-rules-plugin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet/artifact-resolution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet/artifact-resolution/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/artifact/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/artifact/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/artifact/src/main/resources-filtered" charset="UTF-8" />
