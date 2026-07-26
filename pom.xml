@@ -103,7 +103,6 @@
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
         <subproject>ike-knowledge-provider</subproject>
-        <subproject>ike-starter-set</subproject>
     </subprojects>
 
 </project>
