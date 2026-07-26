@@ -102,21 +102,6 @@ subprojects:
     groupId: dev.ikm.tinkar
     depends-on: []
 
-  rich-surface-starter-knowledge:
-    description: >
-      rich-surface-starter-knowledge subproject.
-    repo: git@github.com-graphlet:knowledge-graphlet/rich-surface-starter-knowledge.git
-    branch: feature/chronology-builder
-    sha: "8b54eefaa496fccb2d03ca1b0817cf24e7531057"
-    version: "1-chronology-builder-SNAPSHOT"
-    groupId: network.ike.komet
-    depends-on:
-      - subproject: ike-knowledge-provider
-        relationship: build
-      - subproject: ike-starter-set
-        relationship: build
-      - subproject: tinkar-core
-        relationship: build
 
   ike-knowledge-provider:
     description: >
