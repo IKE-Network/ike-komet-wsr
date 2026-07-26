@@ -36,6 +36,9 @@
     <packaging>pom</packaging>
 
     <name>ike-komet-wsr</name>
+    <properties>
+        <maven.compiler.release>26</maven.compiler.release>
+    </properties>
 
     <!-- Locally declared so the cascade's coordinate-to-repository
          lookup resolves a real repo URL, not the artifactId-appended
@@ -66,6 +69,14 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <inherited>true</inherited>
+                <configuration>
+                    <release>26</release>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>network.ike.tooling</groupId>
                 <artifactId>ike-maven-plugin</artifactId>
                 <!-- version from ike-parent pluginManagement -->
@@ -91,6 +102,7 @@
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>ike-knowledge-provider</subproject>
     </subprojects>
 
 </project>
