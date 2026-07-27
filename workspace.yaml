@@ -26,7 +26,7 @@ subprojects:
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
     branch: main
-    sha: "6f348e99b865587e943958c46fd2b21e6d849cdf"
+    sha: "611a054c3894ee907b9cbc4cdfcc2b7fb25bfbfd"
     version: 1.0.0-SNAPSHOT
     groupId: network.ike.platform
     depends-on:
@@ -38,7 +38,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "5614c9c9904b2b49b6dbfe9321487139166046ed"
+    sha: "d6c27bdbf3bc5a4c7f126bef51bfd6bcc8b2d246"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -58,7 +58,7 @@ subprojects:
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
     branch: main
-    sha: "c0f65bbc8658b90be424daa67fa3c29b1a89208b"
+    sha: "af3d1a3879ca6601b4068bb7a23a418d76c8f39e"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -77,7 +77,7 @@ subprojects:
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
     branch: main
-    sha: "fe5228e44908ede3e0e659174fe36115718a8284"
+    sha: "ebd0c077abe9ac8c7f64972db2a94c613992c41f"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -97,7 +97,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: main
-    sha: "fe1cf4e6bed6b8e45826ff08037243d1e90d9a6c"
+    sha: "528bff9008179298b9a0ee5660a382e3e9013a1b"
     version: 1.43.0-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on: []
@@ -108,7 +108,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "8342591517d8171a7c117b70e5cb6eb83d25206f"
+    sha: "f13970620782b02f44f32078f9cf674b3b816f6a"
     version: "1-SNAPSHOT"
     groupId: network.ike.knowledge
     depends-on:
@@ -128,7 +128,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "7556fc39874a004aae828057d3cb67c4488fb2d4"
+    sha: "22231e6499dd6d263cc5af3ce5cce7109c20d433"
     version: 3.0.7-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on: []
@@ -138,7 +138,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "a55c6bd184317be98256ad9c8d12a07ac06978b8"
+    sha: "e90841a4fcde40011d53321659dc56d9ebd1a1f4"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -150,7 +150,7 @@ subprojects:
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
     branch: main
-    sha: "6b16900ee8039af7a75f7bb616c8d116d9706cbf"
+    sha: "e31f439230a79b5dcf11421b807dc4ed37032472"
     version: 1.14.0-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -165,7 +165,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "4f93b74918a7bfde167023860581a18f8af438bd"
+    sha: "8916d61c26162303ebdf1d209235ec51d9048269"
     version: 0.1.0-SNAPSHOT
     groupId: dev.ikm.ike
     depends-on:
@@ -182,7 +182,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "c8f97d98a082562a2b063ca29c0ae55a4d057c56"
+    sha: "85daa09b4ac872fd4f44a94aa025a713edabaedb"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
@@ -198,7 +198,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "410ba4a016c5daddc8c38bfc89593677736f5ded"
+    sha: "2e9ad150f2ac3c4982b3b199f967b4f6fb96d6ea"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
