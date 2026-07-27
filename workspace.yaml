@@ -108,7 +108,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "557f43f484aafb4c0a909bd72a91457c955ddf7c"
+    sha: "8342591517d8171a7c117b70e5cb6eb83d25206f"
     version: "1-SNAPSHOT"
     groupId: network.ike.knowledge
     depends-on:
@@ -138,7 +138,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "15ce98fce11e1fe5f045935d7e9670042f733369"
+    sha: "a55c6bd184317be98256ad9c8d12a07ac06978b8"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
     depends-on:
@@ -182,7 +182,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "2ad32476ba70702cc70fad2fbc222d6b831bcab4"
+    sha: "c8f97d98a082562a2b063ca29c0ae55a4d057c56"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
@@ -198,7 +198,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "ceb99a46c3427653fd2891cc30b91457a63c2358"
+    sha: "410ba4a016c5daddc8c38bfc89593677736f5ded"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
