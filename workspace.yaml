@@ -37,7 +37,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/semantic-tools
     sha: "d6c27bdbf3bc5a4c7f126bef51bfd6bcc8b2d246"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
