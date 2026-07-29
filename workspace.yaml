@@ -38,7 +38,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "d6c27bdbf3bc5a4c7f126bef51bfd6bcc8b2d246"
+    sha: "3479b709f0df1ae1b49195efea2945ce019b5f44"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
@@ -182,7 +182,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "85daa09b4ac872fd4f44a94aa025a713edabaedb"
+    sha: "189cadc6ca6c468f6848b09250cb7b2b1edc0fdf"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
