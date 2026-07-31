@@ -120,6 +120,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: main
+    sha: "13ac1cc64bc9d8dbdb6f32e74841f930b51214c3"
     version: "1.0.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
     depends-on:
@@ -134,6 +135,7 @@ subprojects:
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
     branch: main
+    sha: "12bf4b02d8801a78334f2b24e7c3e9548398267b"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     depends-on:
@@ -214,7 +216,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "189cadc6ca6c468f6848b09250cb7b2b1edc0fdf"
+    sha: "c9ecc57296953f9696d7da6c6d3bae0664587a01"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
