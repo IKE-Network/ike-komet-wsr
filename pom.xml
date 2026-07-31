@@ -103,6 +103,7 @@
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>tinkar-service</subproject>
     </subprojects>
 
 </project>
