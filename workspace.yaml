@@ -231,7 +231,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/grpc_plugin
     sha: "2e9ad150f2ac3c4982b3b199f967b4f6fb96d6ea"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
