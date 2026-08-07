@@ -42,6 +42,8 @@ subprojects:
     version: 1-SNAPSHOT
     groupId: network.ike.komet
     depends-on:
+      - subproject: komet-grpc-plugin
+        relationship: build
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
@@ -220,6 +222,8 @@ subprojects:
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
     depends-on:
+      - subproject: komet-grpc-plugin
+        relationship: build
       - subproject: komet-bom
         relationship: build
       - subproject: tinkar-core
