@@ -104,7 +104,6 @@
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
         <subproject>tinkar-service</subproject>
-        <subproject>komet-grpc-plugin</subproject>
     </subprojects>
 
 </project>
