@@ -8,12 +8,14 @@
 mode: report
 accepted:
   - key: model-problem/bom-import-from-reactor
-    count: 9
+    count: 10
     reason: >
       The workspace BOM (komet-bom) is a living member of the working
       set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
-      Count is the nine members importing komet-bom at the reactor
+      Count is the ten members importing komet-bom at the reactor
       version, derived and source-keyed; Maven's console warning shows
-      only an unstable subset (2), so the derived count is the number
-      of record.
+      only an unstable subset, so the derived count is the number of
+      record. Tenth importer komet-grpc-plugin accepted 2026-08-11
+      (flagged by the receipt as observed 10 vs accepted 9 on the
+      extension's first wired-in run).
     since: 2026-08-11
