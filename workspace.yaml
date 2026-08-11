@@ -129,12 +129,16 @@ subprojects:
     sha: "13ac1cc64bc9d8dbdb6f32e74841f930b51214c3"
     version: "1.0.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
       - subproject: tinkar-core
         relationship: build
         version-property: tinkar-core.version
       - subproject: rocks-kb
         relationship: build
+      - subproject: tinkar-schema
+        relationship: bundle
+        version-property: tinkar-schema.version
 
   komet-grpc-plugin:
     description: >
@@ -144,6 +148,7 @@ subprojects:
     sha: "12bf4b02d8801a78334f2b24e7c3e9548398267b"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
       - subproject: tinkar-schema
         relationship: build
