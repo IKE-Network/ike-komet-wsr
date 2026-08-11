@@ -29,6 +29,58 @@ Create a feature branch, qualify versions (e.g., `1.0.0-SNAPSHOT` becomes
 Fails if any subproject is on a different feature branch.
 Branches stay local (no auto-push).
 
+### Track: `ws:feature-track-draft` / `ws:feature-track-publish`
+
+Adopt a branch that **already exists** — pushed from another clone
+or by another developer — in exactly the components you name.
+Use this instead of `ws:switch`, which is workspace-wide and skips
+any component whose target branch is not already present locally
+(so a remote-only branch is skipped everywhere).
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `feature` | prompted | Feature name (branch: `feature/<name>`) |
+| `affected` | all | Comma-separated components to move; unknown name fails |
+| `remote` | `origin` | Remote to look for the branch on, and track |
+
+Creates a tracking branch from `<remote>/feature/<name>` when the
+branch is not local yet, then writes all three coherence axes —
+checkout, `.ike/vcs-state`, and `workspace.yaml`'s `branch:`
+fields (#904). Requires a clean tree: unlike `ws:switch` it never
+auto-stashes, so adopting someone else's branch cannot bury your
+work in a stash ref.
+
+```bash
+mvn ws:feature-track-publish -Dfeature=grpc_plugin \
+    -Daffected=komet,tinkar-service
+```
+
+### Review: `ws:feature-pr-draft` / `ws:feature-pr-publish`
+
+Open one pull request per component on the feature branch,
+cross-linked so a reviewer who lands on any of them can reach all
+the others. GitHub has no multi-repository pull request, and a
+reviewer who misses a sibling approves an incomplete picture.
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `feature` | prompted | Feature name |
+| `affected` | all on branch | Restrict to these components |
+| `base` | `main` | Branch the PRs target |
+| `title` | feature name | PR title |
+| `body` | — | Text prepended to every PR body |
+| `reviewer` | — | Comma-separated GitHub logins to request review from |
+
+Pushes the branch first where the remote does not have it, reuses
+an already-open PR for the same head rather than duplicating (so
+it is safe to re-run), then rewrites each body with the sibling
+links. Requires the `gh` CLI, authenticated — the same dependency
+`ws:release-publish` has.
+
+This sits **beside** `ws:feature-finish-*`, which is unchanged.
+After the PRs merge on GitHub, bring the target branch down with
+`ws:refresh-main`.
+
 ### Finish: Three Strategies
 
 **`ws:feature-finish-squash-publish`** (recommended) — single commit on target.
@@ -110,7 +162,7 @@ single-repo vs. workspace breakdown.
 | `ws:commit-publish` | Commit across the working set (`-Dpush=true -Dmessage="..."`) |
 | `ws:push` | Push the working set (warns about uncommitted changes) |
 | `ws:sync` | Pull then push across the working set |
-| `ws:cleanup-draft` / `-publish` | List/delete merged feature branches |
+| `ws:cleanup-draft` / `-publish` | List/delete finished (merged + squash-merged) branches |
 
 ---
 
@@ -133,6 +185,13 @@ changes to commit, preventing branch-switch conflicts.
 
 **`ws:push`:** warns about uncommitted changes after pushing, and
 automatically sets upstream tracking for new branches.
+
+**`ws:push -Dfeature=<name>`:** pushes only members currently on
+`feature/<name>`; everything else is reported as "not on feature
+branch" rather than silently omitted. Without the filter every
+member is pushed **including the workspace root** — which fails
+outright for a contributor with read-only access to the
+aggregator repository, taking the whole goal down with it.
 
 ## Troubleshooting
 

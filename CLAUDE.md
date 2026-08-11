@@ -32,25 +32,13 @@ after building.
 - **Never use `git add -A` or `git add .`** — stage specific files
 - **Never use raw git for workspace ops** (commit, push, checkout, merge, branch,
   stash) — use the `ws:` goals (`ws:commit-publish`, `ws:push`, `ws:switch-publish`, …).
-  `workspace.yaml` `sha:` pins are checkpoint-managed — never hand-edit them. See
-  `.claude/standards/IKE-WORKSPACE.md`
+  `workspace.yaml` `sha:` pins are checkpoint-managed — never hand-edit them.
+  `depends-on` `build` edges are machine-derived from POMs the same way; to declare
+  an edge derivation must not overwrite, use `relationship: bundle`/`content`
+  (hand-declared, preserved). See `.claude/standards/IKE-WORKSPACE.md`
 
 ## Project-Specific Notes
 
 See `WS-REFERENCE.md` for complete workspace goal documentation.
 See `CLAUDE-ike-komet-wsr.md` for workspace-specific information.
 See `.claude/standards/` (after `mvn validate`) for full build standards.
-<!-- BEGIN ike-managed: standards-pointer -->
-
-## IKE Build Standards
-
-This project follows the IKE build standards. Run `mvn validate` to
-unpack them into `.claude/standards/` — build artifacts from
-`ike-build-standards`, so **do not edit or commit them** — then read and
-follow them (start with `MAVEN.md` and `IKE-MAVEN.md`).
-
-Diagrams on web pages (`src/site/asciidoc/`) follow `IKE-DIAGRAMS.md`:
-pre-render to committed static SVG under `src/site/resources/images/` and
-reference with `image::` — never inline `[plantuml]`/`[graphviz]` blocks
-or live Kroki URLs (the Maven site parser does not render them).
-<!-- END ike-managed: standards-pointer -->
