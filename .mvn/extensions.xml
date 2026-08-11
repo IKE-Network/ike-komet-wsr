@@ -37,5 +37,10 @@
         <artifactId>ike-workspace-extension</artifactId>
         <version>9</version>
     </extension>
+    <extension>
+        <groupId>network.ike.tooling</groupId>
+        <artifactId>ike-build-report-extension</artifactId>
+        <version>244</version>
+    </extension>
     <!-- ── /managed ── -->
 </extensions>
