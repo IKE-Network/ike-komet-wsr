@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/grpc_plugin
     sha: "56c0d83804ccebcb050198d86d679cab25935586"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -144,7 +144,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/grpc_plugin
     sha: "166b77c1cb336552a3437945000b013f21e20bd0"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
@@ -183,7 +183,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/grpc_plugin
     sha: "e0b98eb6af6893b801456060dd432024361639be"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -230,7 +230,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/grpc_plugin
     sha: "96f28a45f547f79d0b5f52c46e316d047a1756e0"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
@@ -247,7 +247,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/grpc_plugin
     sha: "4e6fc9b52cfe813dbe5c999f1bc9e75cbab0b2e3"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
