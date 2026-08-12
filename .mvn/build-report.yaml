@@ -5,7 +5,7 @@
 # ATTENTION; below surfaces a RATCHET opportunity. See the
 # dev-build-report-extension design note (ike-lab-documents) and
 # IKE-WORKSPACE.md "Accepted Maven 4 warning".
-mode: report
+mode: gate
 accepted:
   - key: model-problem/bom-import-from-reactor
     count: 10
