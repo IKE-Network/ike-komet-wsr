@@ -28,6 +28,8 @@
     <file url="file://$PROJECT_DIR$/komet-desktop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-example-rules-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-example-rules-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-grpc-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-grpc-plugin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/artifact-resolution/src/main/java" charset="UTF-8" />
@@ -210,10 +212,14 @@
     <file url="file://$PROJECT_DIR$/tinkar-core/terms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/terms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/terms/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-core/test-fixtures/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-core/test-fixtures/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/tinkar-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/tinkar-bom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/tinkar-bom/src/main/resources-filtered" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-schema/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-schema/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-service/src/main/resources" charset="UTF-8" />
   </component>
 </project>
