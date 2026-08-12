@@ -1,0 +1,21 @@
+# Build-report acceptance ledger (ike-issues#978).
+# Keys are stable finding identities from the ike-build-report-extension;
+# counts are expected observations per session. Semantics: observed equal
+# to count lists under ACCEPTED; above surfaces the delta under
+# ATTENTION; below surfaces a RATCHET opportunity. See the
+# dev-build-report-extension design note (ike-lab-documents) and
+# IKE-WORKSPACE.md "Accepted Maven 4 warning".
+mode: report
+accepted:
+  - key: model-problem/bom-import-from-reactor
+    count: 10
+    reason: >
+      The workspace BOM (komet-bom) is a living member of the working
+      set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
+      Count is the ten members importing komet-bom at the reactor
+      version, derived and source-keyed; Maven's console warning shows
+      only an unstable subset, so the derived count is the number of
+      record. Tenth importer komet-grpc-plugin accepted 2026-08-11
+      (flagged by the receipt as observed 10 vs accepted 9 on the
+      extension's first wired-in run).
+    since: 2026-08-11

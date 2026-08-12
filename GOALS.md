@@ -49,6 +49,10 @@ under **Plugins > ws** and **Plugins > ike**.
 |------|-------------|
 | `ws:feature-start-draft` | Preview feature branch |
 | `ws:feature-start-publish` | Create feature branch across components |
+| `ws:feature-track-draft` | Preview adopting an existing branch in selected components |
+| `ws:feature-track-publish` | Adopt an existing branch (`-Daffected=a,b`), creating it from the remote |
+| `ws:feature-pr-draft` | Preview the review pull requests |
+| `ws:feature-pr-publish` | Open cross-linked review PRs, one per component |
 | `ws:feature-finish-merge-draft` | Preview no-ff merge |
 | `ws:feature-finish-merge-publish` | No-ff merge (preserves history) |
 | `ws:feature-finish-squash-draft` | Preview squash merge |
@@ -89,8 +93,8 @@ workspace, or a single repo with no `workspace.yaml`. Run
 
 | Goal | Description |
 |------|-------------|
-| `ws:cleanup-draft` | List merged/stale feature branches |
-| `ws:cleanup-publish` | Delete merged feature branches |
+| `ws:cleanup-draft` | List finished (merged + squash-merged) feature branches |
+| `ws:cleanup-publish` | Delete finished feature branches, local and remote |
 
 ## Build Goals (ike:)
 
