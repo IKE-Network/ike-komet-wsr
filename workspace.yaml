@@ -152,6 +152,12 @@ subprojects:
     depends-on:
       - subproject: tinkar-schema
         relationship: bundle
+      - subproject: komet-bom
+        relationship: build
+        version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
+        version-property: tinkar-core.version
 
 
 # Optional: IntelliJ project settings shared across collaborators.
