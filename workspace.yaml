@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/issue-969
     sha: "3479b709f0df1ae1b49195efea2945ce019b5f44"
     version: 1-SNAPSHOT
     groupId: network.ike.komet
@@ -125,7 +125,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/issue-969
+    branch: feature/grpc_plugin
     sha: "13ac1cc64bc9d8dbdb6f32e74841f930b51214c3"
     version: "1.0.0-SNAPSHOT"
     groupId: dev.ikm.tinkar
@@ -177,7 +177,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/issue-969
     sha: "e90841a4fcde40011d53321659dc56d9ebd1a1f4"
     version: 1.127.2-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -224,7 +224,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/issue-969
     sha: "c9ecc57296953f9696d7da6c6d3bae0664587a01"
     version: 1.59.0-SNAPSHOT
     groupId: dev.ikm.komet
@@ -241,7 +241,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/issue-969
     sha: "2e9ad150f2ac3c4982b3b199f967b4f6fb96d6ea"
     version: 3.0.0-SNAPSHOT
     groupId: dev.ikm.komet
