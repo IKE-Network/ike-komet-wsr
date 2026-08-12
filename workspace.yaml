@@ -275,3 +275,6 @@ subprojects:
       - subproject: rocks-kb
         relationship: bundle
         version-property: rocks-kb-engine.version
+      - subproject: komet-grpc-plugin
+        relationship: bundle
+        version-property: komet-claude-plugin.version
