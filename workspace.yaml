@@ -53,8 +53,6 @@ subprojects:
         relationship: build
       - subproject: komet
         relationship: build
-      - subproject: komet-grpc-plugin
-        relationship: build
 
   komet-example-rules-plugin:
     description: >
