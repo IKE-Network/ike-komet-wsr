@@ -38,6 +38,12 @@
     <name>ike-komet-wsr</name>
     <properties>
         <maven.compiler.release>26</maven.compiler.release>
+        <!-- This working set's members are ikmdev repositories that
+             have tagged their releases bare (1.127.1) for their whole
+             history. The release cycle both writes and reads tags in
+             this style, so those repositories keep one convention and
+             detection sees their real release history. -->
+        <ike.release.tagStyle>BARE</ike.release.tagStyle>
     </properties>
 
     <!-- Locally declared so the cascade's coordinate-to-repository
