@@ -1,0 +1,18 @@
+# release-ike-komet-wsr-2.yaml — one release cycle of this working set.
+# Written by ws:record-release (IKE-Network/ike-issues#973); one file per cycle,
+# one row per released member. Do not hand-edit.
+
+cycle: "ike-komet-wsr-2"
+started: "2026-08-14"
+
+members:
+  tinkar-service:
+    version: "1.0.1"
+    tag: "1.0.1"
+    sha: "d031f563dfd30c68c559fd1024c9881bafa62b5f"
+    recorded: "2026-08-14"
+  (workspace root):
+    version: "2"
+    tag: "2"
+    sha: "60d940509bd71c2c3bcc68a2b52729b2402d9f3b"
+    recorded: "2026-08-14"
