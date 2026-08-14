@@ -30,6 +30,10 @@
 !.mvn/**
 !checkpoints/
 !checkpoints/**
+# Release cycle records — one per cycle, written into the root's tagged
+# tree by ws:release-publish (IKE-Network/ike-issues#997)
+!releases/
+!releases/**
 !.run/
 !.run/**
 
