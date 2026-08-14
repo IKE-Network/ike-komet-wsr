@@ -129,7 +129,7 @@ subprojects:
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: main
     sha: "961fcf5639491f6aeb235428f090435e1ffb4eb4"
-    version: 1.0.1-SNAPSHOT
+    version: 1.0.2-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
