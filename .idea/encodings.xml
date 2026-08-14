@@ -143,6 +143,8 @@
     <file url="file://$PROJECT_DIR$/tinkar-core/events/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/events/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/events/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-core/integration-fixtures/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-core/integration-fixtures/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/integration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/integration/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar-core/integration/src/main/resources-filtered" charset="UTF-8" />
