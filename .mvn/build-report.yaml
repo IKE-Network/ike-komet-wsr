@@ -19,3 +19,22 @@ accepted:
       (flagged by the receipt as observed 10 vs accepted 9 on the
       extension's first wired-in run).
     since: 2026-08-11
+  - key: repository/metadata-resolve-failed/spring-release-e22ad65be0b5fee6143d584bba6f2b61b37bb6bf
+    count: 2
+    reason: >
+      Maven 4 probes each remote repository for /.meta/prefixes.txt;
+      repo.spring.io/release answers 401 because Spring retired the
+      open release repository. The repository is declared by a
+      third-party POM in the dependency graph, not by any member of
+      this working set, so there is nothing here to remove — and
+      nothing is actually resolved from it. Surfaced on the CI agent
+      only; a local build reaches its Nexus mirror first.
+    since: 2026-08-14
+  - key: repository/metadata-resolve-failed/mavengems-51da717cfb6c8ccc8113d76d8e4a2aaa714a0f55
+    count: 2
+    reason: >
+      Same prefix probe against a `mavengem:https://rubygems.org`
+      repository, which core Maven has no connector for — it needs the
+      mavengem extension the declaring third-party POM assumes. Again
+      declared outside this working set and never resolved from.
+    since: 2026-08-14
