@@ -1,0 +1,83 @@
+# release-ike-komet-wsr-4.yaml — one release cycle of this working set.
+# Written by ws:record-release (IKE-Network/ike-issues#973); one file per cycle,
+# one row per released member. Do not hand-edit.
+
+cycle: "ike-komet-wsr-4"
+started: "2026-08-15"
+
+members:
+  tinkar-schema:
+    version: "1.43.2"
+    tag: "1.43.2"
+    sha: "5f560124f9b0b407c58db5cf63e2b8a64f3d765a"
+    recorded: "2026-08-15"
+  komet-bom:
+    version: "3.0.9"
+    tag: "3.0.9"
+    sha: "1fd48c8241880b4ed93bf38c44a1b1d3f2d3bc55"
+    recorded: "2026-08-15"
+  ike-commonmark-attributes:
+    version: "1.0.2"
+    tag: "1.0.2"
+    sha: "def36d64534515961e98dc326f156a3f5a8b759d"
+    recorded: "2026-08-15"
+  tinkar-core:
+    version: "1.127.4"
+    tag: "1.127.4"
+    sha: "06c5b2efad14bbeaf813c9028d077ed79ffe0051"
+    recorded: "2026-08-15"
+  ike-knowledge-provider:
+    version: "3"
+    tag: "3"
+    sha: "ec4bf0f55831ed923f07138649b3b82f54284419"
+    recorded: "2026-08-15"
+  komet-grpc-plugin:
+    version: "3"
+    tag: "3"
+    sha: "89430f032c25cce1389830bcee548e0d2586df1f"
+    recorded: "2026-08-15"
+  tinkar-composer:
+    version: "1.14.2"
+    tag: "1.14.2"
+    sha: "9953296b8219b71e2e959379a87451fe0170691d"
+    recorded: "2026-08-15"
+  rocks-kb:
+    version: "0.1.2"
+    tag: "0.1.2"
+    sha: "74423421ef8233dea98b1ade16a794ca67cca381"
+    recorded: "2026-08-15"
+  komet:
+    version: "1.59.2"
+    tag: "1.59.2"
+    sha: "8111bd94fafdf896d22f4f5d88bbeb090c80b0b9"
+    recorded: "2026-08-15"
+  tinkar-service:
+    version: "1.0.3"
+    tag: "1.0.3"
+    sha: "c2dddb1fde31b08bf4b91b509f1d6879f69b5a95"
+    recorded: "2026-08-15"
+  komet-claude-plugin:
+    version: "3"
+    tag: "3"
+    sha: "1b82cb0c81779b35ccead6b43c1eca8ade98dce8"
+    recorded: "2026-08-15"
+  komet-example-rules-plugin:
+    version: "3"
+    tag: "3"
+    sha: "f2fd63886a8e983682535066104e71feef7f3d06"
+    recorded: "2026-08-15"
+  complex-clause-plugin:
+    version: "3"
+    tag: "3"
+    sha: "993f8f187e480b6ddca1804b0dd59241359f4641"
+    recorded: "2026-08-15"
+  komet-desktop:
+    version: "3.0.2"
+    tag: "3.0.2"
+    sha: "792cf1235f268441fa355abf7683603e08938b7d"
+    recorded: "2026-08-15"
+  (workspace root):
+    version: "4"
+    tag: "4"
+    sha: "3f61c680cb95e53c17e700299dc68f87883c8ce8"
+    recorded: "2026-08-15"
