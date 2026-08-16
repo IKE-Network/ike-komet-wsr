@@ -32,7 +32,7 @@
 
     <groupId>network.ike.komet</groupId>
     <artifactId>ike-komet-wsr</artifactId>
-    <version>5</version>
+    <version>6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>ike-komet-wsr</name>
