@@ -40,7 +40,7 @@ subprojects:
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
     sha: "6051908941af619f8e98880117a7fea7a2dce8f0"
-    version: 4-SNAPSHOT
+    version: 5-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
@@ -251,7 +251,7 @@ subprojects:
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
     sha: "5d519636c6317ef09b35ae01be6a8e032b20db8b"
-    version: 3.0.3-SNAPSHOT
+    version: 3.0.4-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
