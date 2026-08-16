@@ -1,0 +1,23 @@
+# release-ike-komet-wsr-5.yaml — one release cycle of this working set.
+# Written by ws:record-release (IKE-Network/ike-issues#973); one file per cycle,
+# one row per released member. Do not hand-edit.
+
+cycle: "ike-komet-wsr-5"
+started: "2026-08-16"
+
+members:
+  komet-claude-plugin:
+    version: "4"
+    tag: "4"
+    sha: "6051908941af619f8e98880117a7fea7a2dce8f0"
+    recorded: "2026-08-16"
+  komet-desktop:
+    version: "3.0.3"
+    tag: "3.0.3"
+    sha: "5d519636c6317ef09b35ae01be6a8e032b20db8b"
+    recorded: "2026-08-16"
+  (workspace root):
+    version: "5"
+    tag: "5"
+    sha: "8af7fa279086ab04d095df9c33fe0c0c6ada9cb2"
+    recorded: "2026-08-16"
