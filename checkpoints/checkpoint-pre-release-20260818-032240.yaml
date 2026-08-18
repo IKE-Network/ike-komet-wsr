@@ -1,0 +1,75 @@
+# Workspace checkpoint: pre-release-20260818-032240
+# Generated: 2026-08-18T03:22:40Z
+checkpoint: pre-release-20260818-032240
+timestamp: 2026-08-18T03:22:40Z
+subprojects:
+  tinkar-schema:
+    branch: main
+    sha: 8f4d290
+    version: 1.43.4-SNAPSHOT
+    modified: false
+  komet-bom:
+    branch: main
+    sha: f334ff0
+    version: 3.0.11-SNAPSHOT
+    modified: false
+  ike-commonmark-attributes:
+    branch: main
+    sha: 376a03d
+    version: 1.0.4-SNAPSHOT
+    modified: false
+  tinkar-core:
+    branch: main
+    sha: 237982a7
+    version: 1.127.6-SNAPSHOT
+    modified: false
+  ike-knowledge-provider:
+    branch: main
+    sha: 72501a6
+    version: 5-SNAPSHOT
+    modified: false
+  komet-grpc-plugin:
+    branch: main
+    sha: 701fa2b
+    version: 5-SNAPSHOT
+    modified: false
+  tinkar-composer:
+    branch: main
+    sha: df2c777
+    version: 1.14.4-SNAPSHOT
+    modified: false
+  rocks-kb:
+    branch: main
+    sha: ca89900
+    version: 0.1.4-SNAPSHOT
+    modified: false
+  komet:
+    branch: main
+    sha: f6e70f47
+    version: 1.59.4-SNAPSHOT
+    modified: false
+  tinkar-service:
+    branch: main
+    sha: 30c2e3e
+    version: 1.0.5-SNAPSHOT
+    modified: false
+  komet-claude-plugin:
+    branch: main
+    sha: 969b705
+    version: 6-SNAPSHOT
+    modified: false
+  komet-example-rules-plugin:
+    branch: main
+    sha: c5532ac
+    version: 5-SNAPSHOT
+    modified: false
+  complex-clause-plugin:
+    branch: main
+    sha: 77a4aeb
+    version: 5-SNAPSHOT
+    modified: false
+  komet-desktop:
+    branch: main
+    sha: 4aa8f7d
+    version: 3.0.5-SNAPSHOT
+    modified: false
