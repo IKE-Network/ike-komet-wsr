@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "064890a49afb98877289f75cc1107e66862fb0ef"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "d7a88a1b6058dec07f389318cc83a1ec5adfd50b"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -61,7 +61,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "6a555b990ee86f66fea1c43d6d6317d9ad674a21"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -81,7 +81,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "a93b4a51c8bd6af6e890dd0d7a6bfdfc78e35207"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -102,7 +102,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "25c71b82a74f8a765040a98fd05bd61af98a3df1"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -114,7 +114,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "83f35d50b467d4cd7d8799f5df0886247d541c89"
     version: 6-SNAPSHOT
     groupId: network.ike.knowledge
@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "69a3720ad1148e82787240ce535f31e30a51a885"
     version: 1.0.6-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "8a735a0bcf5d5288cd148578839d9d78a428e345"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -174,7 +174,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "5db4feed6b7edcec870b8845d2450414cc62ed40"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -185,7 +185,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "d4b195cafc4c66236ce17010ec37fd4d76eab8c0"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -198,7 +198,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "4457a60e1eaa240d4b61e07b03f83c7450275b09"
     version: 1.14.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -214,7 +214,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "b8c19be9f6c3586e48ccd002fe16cb8f3cd913f8"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -232,7 +232,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "560470093367e2d320ce2393720383777e304a78"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -249,7 +249,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/incremental-reasoner
     sha: "78a1734f029acd9caa1ff0eb44952298949e0f2d"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
