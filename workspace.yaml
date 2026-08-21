@@ -263,7 +263,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "9870e79034a784a165f264769cdc59537c375514"
+    sha: "bc5451c69e1fb5fd3a6fcfe5ae336ecbea1a5b97"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
