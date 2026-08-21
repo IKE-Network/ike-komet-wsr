@@ -32,7 +32,7 @@
 
     <groupId>network.ike.komet</groupId>
     <artifactId>ike-komet-wsr</artifactId>
-    <version>7-SNAPSHOT</version>
+    <version>8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>ike-komet-wsr</name>
@@ -111,6 +111,7 @@
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>ikm-reasoner</subproject>
     </subprojects>
 
 </project>
