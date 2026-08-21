@@ -32,6 +32,11 @@
       <option name="url" value="https://nexus.tinkar.org/repository/ike-restricted/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="nexus-all" />
+      <option name="name" value="nexus-all" />
+      <option name="url" value="https://nexus.tinkar.org/repository/ike-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="tinkar-nexus" />
       <option name="name" value="tinkar-nexus" />
       <option name="url" value="https://nexus.tinkar.org/repository/ike-public/" />
