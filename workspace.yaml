@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/grpc_tls
+    branch: main
     sha: "d7df567fbc675d07a88e5ee2eae954f80ae7efb0"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: feature/grpc_tls
+    branch: main
     sha: "4364e34ddd42ccb1f1617cdc6fdc6e02d82fc921"
     version: 5-SNAPSHOT
     groupId: network.ike.komet
