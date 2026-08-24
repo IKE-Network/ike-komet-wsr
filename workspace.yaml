@@ -273,10 +273,10 @@ subprojects:
         version-property: komet-claude-plugin.version
       - subproject: complex-clause-plugin
         relationship: bundle
-        version-property: komet-claude-plugin.version
+        version-property: complex-clause-plugin.version
       - subproject: rocks-kb
         relationship: bundle
         version-property: rocks-kb-engine.version
       - subproject: komet-grpc-plugin
         relationship: bundle
-        version-property: komet-claude-plugin.version
+        version-property: komet-grpc-plugin.version
