@@ -166,6 +166,7 @@ subprojects:
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
     branch: main
+    sha: "0833a8b7face3bb0cb564b1429c6eed39d2b332a"
     version: "0.40.1-SNAPSHOT"
     groupId: dev.ikm.elk
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
