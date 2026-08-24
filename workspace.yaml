@@ -168,6 +168,7 @@ subprojects:
     branch: main
     version: "0.40.1-SNAPSHOT"
     groupId: dev.ikm.elk
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on: []
 
 
