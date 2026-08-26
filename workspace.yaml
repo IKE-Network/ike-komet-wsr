@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/grpc_reasoner
     sha: "e742cd43b4eb04e385f200357698868d5eea8182"
     version: 1.127.6-SNAPSHOT
     groupId: dev.ikm.tinkar
