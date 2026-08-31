@@ -53,8 +53,6 @@ subprojects:
         relationship: build
       - subproject: komet
         relationship: build
-      - subproject: komet-grpc-plugin
-        relationship: build
 
   komet-example-rules-plugin:
     description: >
@@ -204,8 +202,6 @@ subprojects:
     depends-on:
       - subproject: komet-bom
         relationship: build
-      - subproject: ikm-reasoner
-        relationship: build
 
   tinkar-composer:
     description: >
@@ -293,5 +289,3 @@ subprojects:
       - subproject: komet-grpc-plugin
         relationship: bundle
         version-property: komet-grpc-plugin.version
-      - subproject: ikm-reasoner
-        relationship: build
