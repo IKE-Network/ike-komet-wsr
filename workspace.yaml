@@ -165,7 +165,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: main
+    branch: feature/grpc_reasoner
     sha: "0833a8b7face3bb0cb564b1429c6eed39d2b332a"
     version: "0.40.1-SNAPSHOT"
     groupId: dev.ikm.elk
@@ -203,6 +203,8 @@ subprojects:
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
       - subproject: komet-bom
+        relationship: build
+      - subproject: ikm-reasoner
         relationship: build
 
   tinkar-composer:
@@ -291,3 +293,5 @@ subprojects:
       - subproject: komet-grpc-plugin
         relationship: bundle
         version-property: komet-grpc-plugin.version
+      - subproject: ikm-reasoner
+        relationship: build
