@@ -105,13 +105,13 @@
         <subproject>ike-knowledge-provider</subproject>
         <subproject>tinkar-service</subproject>
         <subproject>komet-grpc-plugin</subproject>
+        <subproject>ikm-reasoner</subproject>
         <subproject>komet-bom</subproject>
         <subproject>tinkar-core</subproject>
         <subproject>tinkar-composer</subproject>
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
-        <subproject>ikm-reasoner</subproject>
     </subprojects>
 
 </project>
