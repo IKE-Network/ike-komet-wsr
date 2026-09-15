@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/rest_reasoner
     sha: "b3cd174ea0075b2a3b041d6f2b0bc154c0781f54"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
