@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "3232b76aecdcf6b9e0ce387b52a90129be0e3754"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "8e5fc9cb6561ff93569d974846385b9eaffbd6aa"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -165,7 +165,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "a93b1f05ead4422223ff94a513b88f7c894e459c"
     version: "0.40.1-SNAPSHOT"
     groupId: dev.ikm.elk
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "02588cf6ea5807476ff963022be9801f850cd397"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -245,7 +245,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "176a042d7a2c9a716624b668a396a3f49e29c582"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -262,7 +262,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "193853d5a760901ed86970a682cb36d3bad4b59a"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
