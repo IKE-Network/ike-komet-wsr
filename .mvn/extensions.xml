@@ -42,5 +42,10 @@
         <artifactId>ike-build-report-extension</artifactId>
         <version>253</version>
     </extension>
+    <extension>
+        <groupId>network.ike.tooling</groupId>
+        <artifactId>ike-version-management-extension</artifactId>
+        <version>11</version>
+    </extension>
     <!-- ── /managed ── -->
 </extensions>
