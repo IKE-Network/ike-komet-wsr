@@ -128,7 +128,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: main
-    sha: "0ef55d751723d34303b65190216cbb958fde8b37"
+    sha: "3232b76aecdcf6b9e0ce387b52a90129be0e3754"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
