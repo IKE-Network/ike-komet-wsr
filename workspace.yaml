@@ -246,7 +246,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "051d38c30b95bb8e1ee709555c40738b484d6b4a"
+    sha: "26e15784b60d9b411daf66379137036b5d65c36b"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
