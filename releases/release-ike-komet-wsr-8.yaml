@@ -1,0 +1,13 @@
+# release-ike-komet-wsr-8.yaml — one release mission of this working set.
+# Written by ws:record-release (IKE-Network/ike-issues#973); one file per mission,
+# one row per released member. Do not hand-edit.
+
+mission: "ike-komet-wsr-8"
+started: "2026-09-23"
+
+members:
+  ike-knowledge-provider:
+    version: "6"
+    tag: "v6"
+    sha: "cc09fb176cc0d7a75154bb41d2fbd94c583fb38e"
+    recorded: "2026-09-23"

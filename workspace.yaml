@@ -116,7 +116,10 @@ subprojects:
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
     sha: "eaa8a9d014a588ea82639cf5ca795e3f4b043850"
-    version: 6-SNAPSHOT
+    version: "6"
+    state: tag-aligned
+    kind: release
+    tag: v6
     groupId: network.ike.knowledge
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
