@@ -115,7 +115,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "8a9cf754156b67cc8fa6964731b29a71c3e81a62"
+    sha: "eaa8a9d014a588ea82639cf5ca795e3f4b043850"
     version: 6-SNAPSHOT
     groupId: network.ike.knowledge
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -128,7 +128,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: main
-    sha: "d29d84716fca478a8386b2249d78f8c5d745c9d8"
+    sha: "9b15ec70fbb95c634b0dac48159e63ae08a51d2a"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -246,7 +246,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "26e15784b60d9b411daf66379137036b5d65c36b"
+    sha: "9599be8c43b5fea2ba4d042e5d4dfd6263fe29db"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -263,7 +263,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "2a0e125b8b7f4d36d3064f796d95cb59585ee67b"
+    sha: "57ee2149a82065150953eb45982a3f7197330e8b"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
