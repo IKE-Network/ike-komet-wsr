@@ -102,7 +102,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: main
+    branch: feature/reasoner_cancel
     sha: "bb875f6a6a66c15c6dfad626e2aed41c414343ce"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
