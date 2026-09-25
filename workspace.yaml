@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "575deae93bb98091abc1e727b4d66521b4d97918"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "c2662788b5ee7917bb0cd8d8ca290075e25aaf5e"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -61,7 +61,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "cedd53408faf0b694729c58350b8a941cce61e08"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -81,7 +81,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "e8de5a24d2e28e29abf8edb9e48136a39404456a"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -102,7 +102,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "5a49d6f814b82da1b2a7d698a83101ddb7f518c0"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -114,7 +114,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "eaa8a9d014a588ea82639cf5ca795e3f4b043850"
     version: "6"
     state: tag-aligned
@@ -130,7 +130,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "9b15ec70fbb95c634b0dac48159e63ae08a51d2a"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -149,7 +149,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "0701a8b4314844e1c2e9e289c58c1d65b5417ac6"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -168,7 +168,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "d4f90bc86d35d03a34d7d709040ecd1b90c1a437"
     version: "0.40.1-SNAPSHOT"
     groupId: dev.ikm.elk
@@ -188,7 +188,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "ad95df39c11f4e0a73ed871d788322dee1e9acf7"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -199,7 +199,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "f7d6c52ad4963e272fb6dae3a219ffcee4696efe"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -214,7 +214,7 @@ subprojects:
     description: >
       tinkar-composer subproject.
     repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "2976b562f8033269f7d1ecfe94c838ff1d664f2e"
     version: 1.14.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -230,7 +230,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "e97ac274e4f131b0a10dfaf91fa44fe87052051e"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -248,7 +248,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "9599be8c43b5fea2ba4d042e5d4dfd6263fe29db"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -265,7 +265,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/8bp-jdk27
     sha: "57ee2149a82065150953eb45982a3f7197330e8b"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
