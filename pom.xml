@@ -26,7 +26,7 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>182</version>
+        <version>184</version>
         <relativePath/>
     </parent>
 
@@ -37,13 +37,14 @@
 
     <name>ike-komet-wsr</name>
     <properties>
-        <maven.compiler.release>26</maven.compiler.release>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
         <!-- This working set's members are ikmdev repositories that
              have tagged their releases bare (1.127.1) for their whole
              history. The release cycle both writes and reads tags in
              this style, so those repositories keep one convention and
              detection sees their real release history. -->
         <ike.release.tagStyle>BARE</ike.release.tagStyle>
+        <java.version>27</java.version>
     </properties>
 
     <!-- Locally declared so the cascade's coordinate-to-repository
@@ -79,7 +80,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <inherited>true</inherited>
                 <configuration>
-                    <release>26</release>
+                    <release>${java.version}</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -91,6 +92,32 @@
                 <groupId>network.ike.platform</groupId>
                 <artifactId>ike-workspace-maven-plugin</artifactId>
                 <!-- version from ike-parent pluginManagement -->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <!-- version from ike-parent pluginManagement -->
+                <executions>
+                    <!-- This working set compiles with preview features enabled for release
+                         ${java.version}, and komet-desktop's jlink image is built from the JDK
+                         running Maven, so Maven itself must run on that JDK. Fail fast rather
+                         than build classes or an image an older JDK cannot run
+                         (IKE-Network/ike-issues#1143). -->
+                    <execution>
+                        <id>enforce-working-set-jdk</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireJavaVersion>
+                                    <version>[${java.version},)</version>
+                                    <message>This working set requires Maven to run on JDK ${java.version} or later (set JAVA_HOME, and IntelliJ's project and Maven runner JDK).</message>
+                                </requireJavaVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
