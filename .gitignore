@@ -66,3 +66,4 @@ ws꞉*.md
 
 # ike:* goal reports
 ike꞉*.md
+.mvn/target/

@@ -16,7 +16,7 @@ mvn clean verify -T 1C               # full build with tests
 
 - Maven 4 with POM modelVersion 4.1.0
 - `<subprojects>` (not `<modules>`) for aggregation
-- All projects use `--enable-preview` (Java 25)
+- All projects use `--enable-preview` (Java 27)
 - Parent: `network.ike.platform:ike-parent` (from ike-platform)
 
 ## Prohibited Patterns
