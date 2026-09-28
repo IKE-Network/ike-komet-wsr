@@ -122,7 +122,10 @@ subprojects:
     tag: v6
     groupId: network.ike.knowledge
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
-    depends-on: []
+    depends-on:
+      - subproject: tinkar-core
+        relationship: build
+        version-property: chronology-store.version
 
   tinkar-service:
     description: >
