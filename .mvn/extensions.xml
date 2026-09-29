@@ -40,7 +40,7 @@
     <extension>
         <groupId>network.ike.tooling</groupId>
         <artifactId>ike-build-report-extension</artifactId>
-        <version>260</version>
+        <version>261</version>
     </extension>
     <extension>
         <groupId>network.ike.tooling</groupId>
