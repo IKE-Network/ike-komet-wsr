@@ -41,3 +41,21 @@ console:
       reason: >
         The per-platform rocksdbjni jars all carry the same module name
         by design; the compiler notes each one after the first.
+    - match: "you should define your own Meta Schema"
+      reason: >
+        The JSON-schema validator inside cyclonedx-maven-plugin does not
+        know two keywords of the CycloneDX schema. The SBOM is still
+        produced and valid; nothing in this workspace can change it.
+    - match: "building the effective model for 'org.springdoc:"
+      reason: >
+        Problems in the published POMs of the springdoc dependency, met
+        while collecting dependencies. Third-party; not fixable here.
+    - match: "although no repository or mirror with this id is declared in settings"
+      reason: >
+        Maven 4 notes that server credentials from settings.xml are used
+        for repositories declared in the POMs. That is how this build is
+        set up on purpose.
+    - match: ".jreleaser/config.properties does not exist"
+      reason: >
+        JReleaser looks for an optional per-user config file. Its
+        settings come from the POM and environment instead.
