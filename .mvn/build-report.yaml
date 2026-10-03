@@ -19,3 +19,11 @@ accepted:
       (flagged by the receipt as observed 10 vs accepted 9 on the
       extension's first wired-in run).
     since: 2026-08-11
+# Console warnings matching these texts are shown but not counted.
+console:
+  ignore:
+    - match: "Using incubator modules: jdk.incubator.vector"
+      reason: >
+        JVM startup notice for the incubating Vector API, printed
+        wherever a JVM is launched with the module; expected and
+        harmless.
