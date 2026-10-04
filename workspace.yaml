@@ -244,6 +244,8 @@ subprojects:
         version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
+      - subproject: ikm-reasoner
+        relationship: build
 
   komet:
     description: >
