@@ -261,8 +261,6 @@ subprojects:
         relationship: build
       - subproject: tinkar-core
         relationship: build
-      - subproject: tinkar-composer
-        relationship: build
 
   komet-desktop:
     description: >
@@ -283,8 +281,6 @@ subprojects:
         version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
-      - subproject: tinkar-composer
-        relationship: build
       - subproject: komet
         relationship: build
       - subproject: komet-claude-plugin
@@ -301,3 +297,5 @@ subprojects:
         version-property: komet-grpc-plugin.version
       - subproject: ikm-reasoner
         relationship: build
+      - subproject: tinkar-composer
+        relationship: bundle
