@@ -22,8 +22,13 @@ rarely gain UUIDs when two are found equivalent. The full contract is in `Public
   by one UUID (`asUuidArray()[0]`). A UUID derived by hashing a component's (type 5) takes its
   least UUID.
 - `PublicIdHashKeyGuardTest` (tinkar-core integration, komet framework) fails the build on a
-  hash collection keyed by a public id in main code; a deliberate exception is marked on its
-  line with `// public-id-hash-key: <reason>`.
+  hash collection keyed by a public id in main code (exception marked
+  `// public-id-hash-key: <reason>`), and on a first UUID taken as an identity:
+  `asUuidArray()[0]`, `asUuidList().get(0)`/`getFirst()`, protobuf `getUuids(0)` (exception
+  marked `// first-uuid: <reason>`; the record layout's head/rest split in
+  `PublicIdentifierRecord.make` is the one). Derive from `publicId.leastUuid()` (signed
+  `UUID.compareTo`), compare with `PublicId.equals`, show `idString()`, write record headers with
+  `PublicIdentifierRecord.make`, and carry every UUID in protobuf and text formats.
 - When content names an existing component under UUIDs the store does not hold, the store adds
   them to the component and raises an advisory (`IdentityAdvisories`); a public id whose UUIDs
   belong to more than one existing component is advised too, and not yet reconciled.
