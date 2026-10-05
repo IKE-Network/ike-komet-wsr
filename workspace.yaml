@@ -293,5 +293,3 @@ subprojects:
         version-property: komet-grpc-plugin.version
       - subproject: ikm-reasoner
         relationship: build
-      - subproject: tinkar-composer
-        relationship: bundle
