@@ -49,8 +49,6 @@ subprojects:
         version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
-      - subproject: tinkar-composer
-        relationship: build
       - subproject: komet
         relationship: build
       - subproject: komet-grpc-plugin
@@ -93,8 +91,6 @@ subprojects:
       - subproject: tinkar-core
         relationship: build
         version-property: tinkar.version
-      - subproject: tinkar-composer
-        relationship: build
       - subproject: komet
         relationship: build
 
