@@ -206,6 +206,8 @@ subprojects:
         relationship: build
       - subproject: ikm-reasoner
         relationship: build
+      - subproject: tinkar-schema
+        relationship: build
 
 
   rocks-kb:
