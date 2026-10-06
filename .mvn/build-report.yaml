@@ -59,3 +59,17 @@ console:
       reason: >
         JReleaser looks for an optional per-user config file. Its
         settings come from the POM and environment instead.
+    - match: "problem was encountered while building the effective model for"
+      reason: >
+        Maven's headline for a model problem. In this working set it is the
+        reactor BOM import (komet-bom), accepted above as
+        model-problem/bom-import-from-reactor; Maven names an unstable subset
+        of the importers each run (confirmed with -e, 2026-10-05). The
+        derived, source-keyed finding is the record, so the console line is
+        not counted twice.
+    - match: "Total model problems reported:"
+      reason: Maven's tally under the model-problem headlines above.
+    - match: "It is highly recommended to fix these problems because they threaten the stability of your build."
+      reason: Maven's boilerplate under the model-problem headlines above.
+    - match: "future Maven versions might no longer support building such malformed projects"
+      reason: Maven's boilerplate under the model-problem headlines above.
