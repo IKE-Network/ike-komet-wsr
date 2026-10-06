@@ -8,16 +8,15 @@
 mode: gate
 accepted:
   - key: model-problem/bom-import-from-reactor
-    count: 10
+    count: 9
     reason: >
       The workspace BOM (komet-bom) is a living member of the working
       set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
-      Count is the ten members importing komet-bom at the reactor
-      version, derived and source-keyed; Maven's console warning shows
-      only an unstable subset, so the derived count is the number of
-      record. Tenth importer komet-grpc-plugin accepted 2026-08-11
-      (flagged by the receipt as observed 10 vs accepted 9 on the
-      extension's first wired-in run).
+      Count is the members importing komet-bom at the reactor version,
+      derived and source-keyed; Maven's console warning shows only an
+      unstable subset, so the derived count is the number of record.
+      Tenth importer komet-grpc-plugin accepted 2026-08-11; nine since
+      tinkar-composer left the working set (2026-10-05).
     since: 2026-08-11
 # Console warnings matching these texts are shown but not counted.
 console:
@@ -67,9 +66,29 @@ console:
         of the importers each run (confirmed with -e, 2026-10-05). The
         derived, source-keyed finding is the record, so the console line is
         not counted twice.
+    - match: "BOM imports from within reactor should be avoided"
+      reason: >
+        The detail of the reactor BOM import, which Maven prints only under
+        -e; the same finding as model-problem/bom-import-from-reactor.
     - match: "Total model problems reported:"
       reason: Maven's tally under the model-problem headlines above.
     - match: "It is highly recommended to fix these problems because they threaten the stability of your build."
       reason: Maven's boilerplate under the model-problem headlines above.
     - match: "future Maven versions might no longer support building such malformed projects"
       reason: Maven's boilerplate under the model-problem headlines above.
+    - match: "org.semanticweb.elk.owlapi.query."
+      reason: >
+        ELK's OWL API query tests skip the two inconsistent ontologies
+        (Inconsistent.owl, InconsistentInstances.owl): the OWL API query
+        interface throws on an inconsistent ontology. ELK's own query tests
+        cover both. Upstream ELK's design; Komet reasons through elk-snomed,
+        not the OWL API.
+    - match: "org.semanticweb.elk.owlapi.OWLAPIDiffClassificationCorrectnessTest — "
+      reason: >
+        Skips DisjointSelf.owl for OWL API bug owlcs/owlapi#151, fixed only in
+        OWL API 5; ELK here binds OWL API 4.8.7. Upstream ELK's design.
+    - match: "org.semanticweb.elk.reasoner.taxonomy.InstanceTaxonomyMemberComparisonTest — "
+      reason: >
+        testMemberSet is @Ignore'd upstream: ELK does not support equivalent
+        individuals (InstanceTaxonomyComputationFactory). Komet reasons over
+        no individuals.
