@@ -76,19 +76,3 @@ console:
       reason: Maven's boilerplate under the model-problem headlines above.
     - match: "future Maven versions might no longer support building such malformed projects"
       reason: Maven's boilerplate under the model-problem headlines above.
-    - match: "org.semanticweb.elk.owlapi.query."
-      reason: >
-        ELK's OWL API query tests skip the two inconsistent ontologies
-        (Inconsistent.owl, InconsistentInstances.owl): the OWL API query
-        interface throws on an inconsistent ontology. ELK's own query tests
-        cover both. Upstream ELK's design; Komet reasons through elk-snomed,
-        not the OWL API.
-    - match: "org.semanticweb.elk.owlapi.OWLAPIDiffClassificationCorrectnessTest — "
-      reason: >
-        Skips DisjointSelf.owl for OWL API bug owlcs/owlapi#151, fixed only in
-        OWL API 5; ELK here binds OWL API 4.8.7. Upstream ELK's design.
-    - match: "org.semanticweb.elk.reasoner.taxonomy.InstanceTaxonomyMemberComparisonTest — "
-      reason: >
-        testMemberSet is @Ignore'd upstream: ELK does not support equivalent
-        individuals (InstanceTaxonomyComputationFactory). Komet reasons over
-        no individuals.
