@@ -49,8 +49,6 @@ subprojects:
         version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
-      - subproject: tinkar-composer
-        relationship: build
       - subproject: komet
         relationship: build
       - subproject: komet-grpc-plugin
@@ -93,8 +91,6 @@ subprojects:
       - subproject: tinkar-core
         relationship: build
         version-property: tinkar.version
-      - subproject: tinkar-composer
-        relationship: build
       - subproject: komet
         relationship: build
 
@@ -210,22 +206,9 @@ subprojects:
         relationship: build
       - subproject: ikm-reasoner
         relationship: build
+      - subproject: tinkar-schema
+        relationship: build
 
-  tinkar-composer:
-    description: >
-      tinkar-composer subproject.
-    repo: https://github.com/ikmdev/tinkar-composer.git
-    branch: main
-    sha: "40e3eab47b2b7e3d0d446ee4012e6c7639aa5ac4"
-    version: 1.14.5-SNAPSHOT
-    groupId: dev.ikm.tinkar
-    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
-    depends-on:
-      - subproject: komet-bom
-        relationship: build
-      - subproject: tinkar-core
-        relationship: build
-        version-property: tinkar-core.version
 
   rocks-kb:
     description: >
@@ -244,6 +227,8 @@ subprojects:
         version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
+      - subproject: ikm-reasoner
+        relationship: build
 
   komet:
     description: >
@@ -258,8 +243,6 @@ subprojects:
       - subproject: komet-bom
         relationship: build
       - subproject: tinkar-core
-        relationship: build
-      - subproject: tinkar-composer
         relationship: build
 
   komet-desktop:
@@ -280,8 +263,6 @@ subprojects:
         relationship: build
         version-property: komet-bom.version
       - subproject: tinkar-core
-        relationship: build
-      - subproject: tinkar-composer
         relationship: build
       - subproject: komet
         relationship: build
