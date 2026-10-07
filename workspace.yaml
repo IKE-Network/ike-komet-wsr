@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: main
+    branch: feature/widening
     sha: "7d840c2e951bdee41ad4fe20d089f760346c78e2"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/widening
     sha: "7140c5d4df7a7e07a7ebc8bc9cd0a0ce0e02e676"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -59,7 +59,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: main
+    branch: feature/widening
     sha: "a6a0442b22c4e433de6157b40d9ca9eb2303a296"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -79,7 +79,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: main
+    branch: feature/widening
     sha: "80a1c3755d1c3bef33583dd4b936d6b5d74a4fbd"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -98,7 +98,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: main
+    branch: feature/widening
     sha: "72761dcc10b799bc8f90a06a9724359690742d8c"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -110,7 +110,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: main
+    branch: feature/widening
     sha: "aea7310f00b72eba31bbcc6acf84fd0841868379"
     version: "6"
     state: tag-aligned
@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/widening
     sha: "65e169fbf242140c2b7e7babf6901bc67e5bc925"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/widening
     sha: "f3f3de7ec6665e04949d07ecf1cefd90e18f8a54"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -165,7 +165,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: main
+    branch: feature/widening
     sha: "7c308c0c78b72db77c046c9a5f33e31fc3894f00"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
@@ -185,7 +185,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: main
+    branch: feature/widening
     sha: "4bc7ee9108be9cc4587224a9b495264ed45721df"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/widening
     sha: "bc0f4235cce7ef2f537d13cf46bd05adc5463a38"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -214,7 +214,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: main
+    branch: feature/widening
     sha: "21ad5fdc88b6de4da2b17f87f323fd0f101b93d1"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -234,7 +234,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/widening
     sha: "13ae3252af795294d931febd12bda4e9564094eb"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -249,7 +249,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/widening
     sha: "ea24e22f6431a4784dcd06a1336fe0adeb44316c"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
