@@ -8,14 +8,71 @@
 mode: gate
 accepted:
   - key: model-problem/bom-import-from-reactor
-    count: 10
+    count: 9
     reason: >
       The workspace BOM (komet-bom) is a living member of the working
       set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
-      Count is the ten members importing komet-bom at the reactor
-      version, derived and source-keyed; Maven's console warning shows
-      only an unstable subset, so the derived count is the number of
-      record. Tenth importer komet-grpc-plugin accepted 2026-08-11
-      (flagged by the receipt as observed 10 vs accepted 9 on the
-      extension's first wired-in run).
+      Count is the members importing komet-bom at the reactor version,
+      derived and source-keyed; Maven's console warning shows only an
+      unstable subset, so the derived count is the number of record.
+      Tenth importer komet-grpc-plugin accepted 2026-08-11; nine since
+      tinkar-composer left the working set (2026-10-05).
     since: 2026-08-11
+# Console warnings matching these texts are shown but not counted.
+console:
+  ignore:
+    - match: "Using incubator modules: jdk.incubator.vector"
+      reason: >
+        JVM startup notice for the incubating Vector API, printed
+        wherever a JVM is launched with the module; expected and
+        harmless.
+    - match: "WARNING: signed modular JAR"
+      reason: >
+        jlink cannot carry JAR signatures into a runtime image and drops
+        them (--ignore-signing-information). Expected; the application
+        is signed as a whole. JReleaser relays the line at ERROR level.
+    - match: "Sharing is only supported for boot loader classes because bootstrap classpath has been appended"
+      reason: >
+        JVM notice that class-data sharing is reduced when a Java agent
+        (JaCoCo) appends to the bootstrap classpath. Costs a little test
+        JVM startup time; nothing to fix.
+    - match: "Module 'dev.ikm.rocksdb.jpms' is already on the module path"
+      reason: >
+        The per-platform rocksdbjni jars all carry the same module name
+        by design; the compiler notes each one after the first.
+    - match: "you should define your own Meta Schema"
+      reason: >
+        The JSON-schema validator inside cyclonedx-maven-plugin does not
+        know two keywords of the CycloneDX schema. The SBOM is still
+        produced and valid; nothing in this workspace can change it.
+    - match: "building the effective model for 'org.springdoc:"
+      reason: >
+        Problems in the published POMs of the springdoc dependency, met
+        while collecting dependencies. Third-party; not fixable here.
+    - match: "although no repository or mirror with this id is declared in settings"
+      reason: >
+        Maven 4 notes that server credentials from settings.xml are used
+        for repositories declared in the POMs. That is how this build is
+        set up on purpose.
+    - match: ".jreleaser/config.properties does not exist"
+      reason: >
+        JReleaser looks for an optional per-user config file. Its
+        settings come from the POM and environment instead.
+    - match: "problem was encountered while building the effective model for"
+      reason: >
+        Maven's headline for a model problem. In this working set it is the
+        reactor BOM import (komet-bom), accepted above as
+        model-problem/bom-import-from-reactor; Maven names an unstable subset
+        of the importers each run (confirmed with -e, 2026-10-05). The
+        derived, source-keyed finding is the record, so the console line is
+        not counted twice.
+    - match: "BOM imports from within reactor should be avoided"
+      reason: >
+        The detail of the reactor BOM import, which Maven prints only under
+        -e; the same finding as model-problem/bom-import-from-reactor.
+    - match: "Total model problems reported:"
+      reason: Maven's tally under the model-problem headlines above.
+    - match: "It is highly recommended to fix these problems because they threaten the stability of your build."
+      reason: Maven's boilerplate under the model-problem headlines above.
+    - match: "future Maven versions might no longer support building such malformed projects"
+      reason: Maven's boilerplate under the model-problem headlines above.

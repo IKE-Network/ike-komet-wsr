@@ -35,12 +35,12 @@
     <extension>
         <groupId>network.ike.tooling</groupId>
         <artifactId>ike-workspace-extension</artifactId>
-        <version>13</version>
+        <version>14</version>
     </extension>
     <extension>
         <groupId>network.ike.tooling</groupId>
         <artifactId>ike-build-report-extension</artifactId>
-        <version>261</version>
+        <version>262</version>
     </extension>
     <extension>
         <groupId>network.ike.tooling</groupId>
