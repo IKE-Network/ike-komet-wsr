@@ -42,6 +42,7 @@ after building.
 See `WS-REFERENCE.md` for complete workspace goal documentation.
 See `CLAUDE-ike-komet-wsr.md` for workspace-specific information.
 See `.claude/standards/` (after `mvn validate`) for full build standards.
+
 <!-- BEGIN ike-managed: standards-pointer -->
 
 ## IKE Build Standards
