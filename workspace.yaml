@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "324a46d11bc4de1aa6858b2f6a884333ed3fe8ac"
+    sha: "6e7b93f7d2d6b5a3f799cc16f2ce5ea34bcae2dc"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -111,7 +111,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "505b1b513918c870eaa2ef05e4eb0e11007de076"
+    sha: "b0752c6569d0f10f1449fbed4d756f54eb150798"
     version: "6"
     state: tag-aligned
     kind: release
@@ -197,7 +197,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "6ef40e4265cbe781351b06631c79f03bb9c18989"
+    sha: "1ce37ee3dcb606efa1659d872a77b69086d521d5"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -235,7 +235,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "b41a54828a3da0a27c229c1722e60b8a58811392"
+    sha: "1c171841b528cf2a9c3ace4c8eb7761e1e2ec2aa"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -250,7 +250,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "bbd2cf9fe26d0683fafee8aeae70098ab77913e0"
+    sha: "18827e2dd19e5773a4cab2ab737e39af193a4129"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
