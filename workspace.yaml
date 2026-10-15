@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "93df591123d701a54fabc1ccfccbca7e020339a0"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "27ac2b63c4aca7905af00deab16034183c360854"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -59,7 +59,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "e17e37ec4e583b665a74992aed29635b146df8ce"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -79,7 +79,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "0c1dea79667e50ac1860ae8d0b560ea9ccb0b2c7"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -98,7 +98,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "91bbc4bbf5132ca59577eccd585ba9e87fa80a63"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -110,7 +110,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "d3d2bc8e66e5f265fc3eff1d41120c89ccca6df5"
     version: "6"
     state: tag-aligned
@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "fa25b0d5ac3d415ba99f8a6b91405e6c922ab260"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "d6454dd1b483bab4cdf794f22084f74bda9b9fff"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -165,7 +165,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "4403e91dafaa5366f37af26e99936ce9ad596f0a"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
@@ -185,7 +185,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "092920800f7044f3f903ed69db7d79101d978d0f"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "8e90dc6f598b6ef6709b9c3cc3efcc5988494d0b"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -214,7 +214,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "cea4cc2bbad14dec7190aefa50214df22d91e36d"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -234,7 +234,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "1a3ec1b8714fd1eb0f182626cfed2064301c739a"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -249,7 +249,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: main
+    branch: feature/rocks-inferred-axioms
     sha: "0d2ede7c15ce4bc71c6be0fbfa68c7cf8a74eb68"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
