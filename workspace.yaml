@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "6fca65e2937ba2dc00e43cb5435c0472c42bf4ad"
+    sha: "9586a52f72113f5b7bcb3ddb974124b1eee77b66"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -111,7 +111,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "4bc0a2804d175f7de2d9ae6bbf67cfbe6a14e547"
+    sha: "bbe96d6dc624baddcbb2e79a9ac49e39b43d8a8f"
     version: "6"
     state: tag-aligned
     kind: release
@@ -166,7 +166,7 @@ subprojects:
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
     branch: main
-    sha: "4403e91dafaa5366f37af26e99936ce9ad596f0a"
+    sha: "b7881a3df2031f9b26ac3b16cbf313cf31ace46d"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -186,7 +186,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "0a691c07544815a2f74bb081d475275b2056a93e"
+    sha: "8a8248ab80cbe1021a8d7e1c0ce18bd7cd9f5b4b"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -197,7 +197,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "7cbe2d666f5c8c4995eaf09079b1b214d171376b"
+    sha: "e68ea65f4b0650042a0e8366df33e0fb8de41b80"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -215,7 +215,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "7e3ae5a548158f08f5a2a7b42e543291983de3e9"
+    sha: "02b0d5af152f41025e1de807cc7b829f740767f4"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -235,7 +235,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "c8ecea08a76b3e2886903ce720279c19fcf11b15"
+    sha: "2ac30fa836676c9ea058c34583a1b347d8fca2bf"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
