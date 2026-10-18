@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "93df591123d701a54fabc1ccfccbca7e020339a0"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "e23a555bfe985057b065912bc036021869dffea7"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -59,7 +59,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "e17e37ec4e583b665a74992aed29635b146df8ce"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -79,7 +79,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "0c1dea79667e50ac1860ae8d0b560ea9ccb0b2c7"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -98,7 +98,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "91bbc4bbf5132ca59577eccd585ba9e87fa80a63"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -110,7 +110,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "bbe96d6dc624baddcbb2e79a9ac49e39b43d8a8f"
     version: "6"
     state: tag-aligned
@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "b6e542dd7b8a2172fd8e02d0481e953611136fce"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "d6454dd1b483bab4cdf794f22084f74bda9b9fff"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -165,7 +165,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "e35279b6e82aa804f81ed761c1962266bc8a755b"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
@@ -185,7 +185,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "8a8248ab80cbe1021a8d7e1c0ce18bd7cd9f5b4b"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "ca0c3253fe2d1520a9c3c33b422d21a047392cd9"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -214,7 +214,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "02b0d5af152f41025e1de807cc7b829f740767f4"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -234,7 +234,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "c20a5da03ff7cd08123401366b4e151cdbb40809"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -249,7 +249,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/derivation-public-ids
+    branch: main
     sha: "0e683f7731faa4ee537f1cdf1e85ffd8a96d3e5b"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
