@@ -98,7 +98,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/grpc_patterns
+    branch: main
     sha: "91bbc4bbf5132ca59577eccd585ba9e87fa80a63"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/grpc_patterns
+    branch: main
     sha: "fd1bf9fb3d04f88793ea7160fcbf0ae149e062f0"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: feature/grpc_patterns
+    branch: main
     sha: "294e87a3a8a952ff96ce4eb4b750aa8fd83cbb5c"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/grpc_patterns
+    branch: main
     sha: "5e6d9b47be1b5cf09805984c0c68d3d9a70260b1"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -234,7 +234,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/grpc_patterns
+    branch: main
     sha: "0880dc7710f3330f68b057da60bcf52f8e288afa"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
