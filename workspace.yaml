@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "6fca65e2937ba2dc00e43cb5435c0472c42bf4ad"
+    sha: "14bc541402ce72212045585c635d264609b83f09"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -80,7 +80,7 @@ subprojects:
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
     branch: main
-    sha: "0c1dea79667e50ac1860ae8d0b560ea9ccb0b2c7"
+    sha: "920678229029b840316eed3d43a4c429a19470f6"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -111,7 +111,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "4bc0a2804d175f7de2d9ae6bbf67cfbe6a14e547"
+    sha: "ff2c4facf5b3f7663abcbbf2d79974fc1c4ed822"
     version: "6"
     state: tag-aligned
     kind: release
@@ -128,7 +128,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: feature/grpc_patterns
-    sha: "b6e542dd7b8a2172fd8e02d0481e953611136fce"
+    sha: "fd1bf9fb3d04f88793ea7160fcbf0ae149e062f0"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -147,7 +147,7 @@ subprojects:
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
     branch: feature/grpc_patterns
-    sha: "d6454dd1b483bab4cdf794f22084f74bda9b9fff"
+    sha: "294e87a3a8a952ff96ce4eb4b750aa8fd83cbb5c"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -166,7 +166,7 @@ subprojects:
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
     branch: main
-    sha: "4403e91dafaa5366f37af26e99936ce9ad596f0a"
+    sha: "e35279b6e82aa804f81ed761c1962266bc8a755b"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -186,7 +186,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "0a691c07544815a2f74bb081d475275b2056a93e"
+    sha: "8a8248ab80cbe1021a8d7e1c0ce18bd7cd9f5b4b"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -197,7 +197,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/grpc_patterns
-    sha: "7cbe2d666f5c8c4995eaf09079b1b214d171376b"
+    sha: "5e6d9b47be1b5cf09805984c0c68d3d9a70260b1"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -215,7 +215,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "7e3ae5a548158f08f5a2a7b42e543291983de3e9"
+    sha: "ef70f57f95d8723f62eed503073273f835562401"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -235,7 +235,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/grpc_patterns
-    sha: "c8ecea08a76b3e2886903ce720279c19fcf11b15"
+    sha: "0880dc7710f3330f68b057da60bcf52f8e288afa"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
