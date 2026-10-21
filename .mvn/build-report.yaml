@@ -6,6 +6,22 @@
 # dev-build-report-extension design note (ike-lab-documents) and
 # IKE-WORKSPACE.md "Accepted Maven 4 warning".
 mode: gate
+# Bounds on the session's measures (ike-issues#1207): a measure under its floor
+# is a finding and fails the gate; one above it by more than the slack is a
+# RATCHET opportunity the report names.
+measures:
+  - key: fidelity.score
+    at-least: 54.0
+    slack: 1.0
+    reason: >
+      Layout fidelity of the stamped document surface's first pass
+      (LayoutFidelityIT, komet-claude-plugin): the share of Typst's lines
+      the greedy JavaFX pass breaks exactly over the 22-document corpus in
+      src/test/resources/fidelity. 47.7 on 2026-10-20 after tuning the
+      spacing rules and the measure factor; 54.4 later that day with Typst's
+      hyphenation (hyph-en-us patterns, hypher's bounds) and its line cost in
+      the breaker; a drop means a rule or the measurement regressed, a rise a
+      tuning to ratchet in.
 accepted:
   - key: model-problem/bom-import-from-reactor
     count: 9
