@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/anf-editor
-    sha: "fe1d6789f76b59e1373e349dab2f72f3eb24afa3"
+    sha: "d54655b01a420636cdc6f1846c6ce38bfee2bc97"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -99,7 +99,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: feature/anf-editor
-    sha: "91bbc4bbf5132ca59577eccd585ba9e87fa80a63"
+    sha: "bf88aecf436df8564794107b991bc3e00a8ede4d"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -128,7 +128,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: feature/anf-editor
-    sha: "fd1bf9fb3d04f88793ea7160fcbf0ae149e062f0"
+    sha: "9d6256cee7e191010c962fa487f1129e507f217f"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -147,7 +147,7 @@ subprojects:
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
     branch: feature/anf-editor
-    sha: "294e87a3a8a952ff96ce4eb4b750aa8fd83cbb5c"
+    sha: "2ab91e8e000aec8c108864db4fa1c18bab9bb7d3"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -197,7 +197,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/anf-editor
-    sha: "8274f2f15333992dd8f2c8851a54408b0ab4b9e3"
+    sha: "d918ce736f8b67eb13c2f7da6edf4a630ce3c569"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -235,7 +235,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/anf-editor
-    sha: "3827aeb0fba9b30a31180f03698029aeea555b1f"
+    sha: "9bdaa507cfe1176f97f3365009ca5bdb440eddaa"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -250,7 +250,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: feature/anf-editor
-    sha: "d36019f6c6c8d64334e66e844c58dfd6f3289cc8"
+    sha: "490c4b89942121656cadd6116b7e2d9fedba6a2e"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
