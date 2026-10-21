@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "93df591123d701a54fabc1ccfccbca7e020339a0"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "fe1d6789f76b59e1373e349dab2f72f3eb24afa3"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -59,7 +59,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "e17e37ec4e583b665a74992aed29635b146df8ce"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -79,7 +79,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "920678229029b840316eed3d43a4c429a19470f6"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -98,7 +98,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "91bbc4bbf5132ca59577eccd585ba9e87fa80a63"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -110,7 +110,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "ff2c4facf5b3f7663abcbbf2d79974fc1c4ed822"
     version: "6"
     state: tag-aligned
@@ -127,7 +127,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "fd1bf9fb3d04f88793ea7160fcbf0ae149e062f0"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "294e87a3a8a952ff96ce4eb4b750aa8fd83cbb5c"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -165,7 +165,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "e35279b6e82aa804f81ed761c1962266bc8a755b"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
@@ -185,7 +185,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "8a8248ab80cbe1021a8d7e1c0ce18bd7cd9f5b4b"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "8274f2f15333992dd8f2c8851a54408b0ab4b9e3"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -214,7 +214,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "13f68797ed43081a109607b26e52e60194d0c0db"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -234,7 +234,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "3827aeb0fba9b30a31180f03698029aeea555b1f"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -249,7 +249,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/ncbi-gene-importer
+    branch: main
     sha: "d36019f6c6c8d64334e66e844c58dfd6f3289cc8"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
