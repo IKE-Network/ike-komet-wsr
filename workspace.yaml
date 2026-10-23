@@ -146,7 +146,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: main
+    branch: feature/create_pattern
     sha: "2ab91e8e000aec8c108864db4fa1c18bab9bb7d3"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -196,7 +196,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: main
+    branch: feature/create_pattern
     sha: "d918ce736f8b67eb13c2f7da6edf4a630ce3c569"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
