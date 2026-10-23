@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "cb84e948fc8c937db8287d5b7ad5eeb37517ef51"
+    sha: "518994973c82a69e279444a433b4d4700f0c0a11"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -111,7 +111,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "13e900299e85d4e5472121b339bb31263b54b47e"
+    sha: "3d44bb5a75aea10ac420b49fa6df018d61bcd685"
     version: "6"
     state: tag-aligned
     kind: release
