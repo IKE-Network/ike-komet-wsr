@@ -138,6 +138,7 @@
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>komet-sequential-store-plugin</subproject>
     </subprojects>
 
 </project>
