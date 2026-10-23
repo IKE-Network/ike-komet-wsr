@@ -42,6 +42,12 @@ console:
         JVM startup notice for the incubating Vector API, printed
         wherever a JVM is launched with the module; expected and
         harmless.
+    - match: "WARNING: Using incubating API from an unnamed module:"
+      reason: >
+        JavaFX's notice for its incubating controls (rich text, input),
+        printed once per package in every JVM where class-path code uses
+        them, as tests on the class path do; no property turns it off. The
+        named-module counterpart is the JVM notice above.
     - match: "WARNING: signed modular JAR"
       reason: >
         jlink cannot carry JAR signatures into a runtime image and drops
