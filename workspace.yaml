@@ -181,7 +181,7 @@ subprojects:
   komet-sequential-store-plugin:
     description: >
       The sequential (32-bit) spined-array store as a Komet plugin, kept so a store on disk can be opened and migrated to the 64-bit store (ike-issues#1313)
-    repo: https://github.com/knowledge-graphlet/komet-sequential-store-plugin.git
+    repo: https://github.com/komet-plugins/komet-sequential-store-plugin.git
     branch: main
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
