@@ -287,5 +287,8 @@ subprojects:
       - subproject: komet-grpc-plugin
         relationship: bundle
         version-property: komet-grpc-plugin.version
+      - subproject: komet-sequential-store-plugin
+        relationship: bundle
+        version-property: komet-sequential-store-plugin.version
       - subproject: ikm-reasoner
         relationship: build
