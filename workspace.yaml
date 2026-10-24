@@ -216,7 +216,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "4a7f1058093cd3d01bda2545a383c2808503e578"
+    sha: "68bf618cf3edf4df7e80c5544f7cdbe2a545e3be"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -234,7 +234,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "eeefb35da71a9a2d4bd2e43f2619bfce883d2e9a"
+    sha: "07ac85535c6994631aa6bf8a762ac317f0e946e5"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -269,7 +269,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "2502a7aa395e20e8410edb5ae697d3a4aef9187d"
+    sha: "36d221a7739d1ba9448916ff46b47cac8e98c142"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
