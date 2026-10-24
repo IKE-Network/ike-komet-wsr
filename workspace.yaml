@@ -26,7 +26,7 @@ subprojects:
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
     branch: feature/anf-editor
-    sha: "93df591123d701a54fabc1ccfccbca7e020339a0"
+    sha: "f91e877bc77628e1f008b21536bba8df94622ac6"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/anf-editor
-    sha: "d54655b01a420636cdc6f1846c6ce38bfee2bc97"
+    sha: "4a9c1381917add5a1b9b8effd2a1121d4b6d9005"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -60,7 +60,7 @@ subprojects:
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
     branch: feature/anf-editor
-    sha: "e17e37ec4e583b665a74992aed29635b146df8ce"
+    sha: "ca3b05cabf7ca55a017e7462f0d762526edb8a76"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -80,7 +80,7 @@ subprojects:
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
     branch: feature/anf-editor
-    sha: "920678229029b840316eed3d43a4c429a19470f6"
+    sha: "6ea100c3108e0adc517806687b499b8b16a4797c"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -99,7 +99,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: feature/anf-editor
-    sha: "bf88aecf436df8564794107b991bc3e00a8ede4d"
+    sha: "a4d297031f677d9741d2daa71a61d3f4cb4cb6fa"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -111,7 +111,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: feature/anf-editor
-    sha: "ff2c4facf5b3f7663abcbbf2d79974fc1c4ed822"
+    sha: "2477456e2a15589873281f734cfe398ba8aa2cdd"
     version: "6"
     state: tag-aligned
     kind: release
@@ -128,7 +128,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: feature/anf-editor
-    sha: "9d6256cee7e191010c962fa487f1129e507f217f"
+    sha: "9095a9534573df82ab6fb2e79deebbcad5a24f14"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -141,13 +141,16 @@ subprojects:
       - subproject: tinkar-schema
         relationship: bundle
         version-property: tinkar-schema.version
+      - subproject: komet-sequential-store-plugin
+        relationship: build
+        version-property: komet-sequential-store-plugin.version
 
   komet-grpc-plugin:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
     branch: feature/anf-editor
-    sha: "2ab91e8e000aec8c108864db4fa1c18bab9bb7d3"
+    sha: "73891b4c3872d63b49189adefe3504d32665f33f"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -166,11 +169,27 @@ subprojects:
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
     branch: feature/anf-editor
-    sha: "e35279b6e82aa804f81ed761c1962266bc8a755b"
+    sha: "35b106b83fac80593430015ec9014b6d79e90040"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on: []
+
+  komet-sequential-store-plugin:
+    description: >
+      The sequential (32-bit) spined-array store as a Komet plugin, kept so a store on disk can be opened and migrated to the 64-bit store (ike-issues#1313)
+    repo: https://github.com/komet-plugins/komet-sequential-store-plugin.git
+    branch: main
+    sha: "7f0be7d1e180c36099e503ce54f8a88d0d44cbbe"
+    version: "1-SNAPSHOT"
+    groupId: network.ike.komet
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
+    depends-on:
+      - subproject: komet-bom
+        relationship: build
+        version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
 
 
 # Optional: IntelliJ project settings shared across collaborators.
@@ -186,7 +205,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: feature/anf-editor
-    sha: "8a8248ab80cbe1021a8d7e1c0ce18bd7cd9f5b4b"
+    sha: "dff9a2cfc7c62926f10cb2eb60afbbec6611b8c5"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -197,7 +216,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/anf-editor
-    sha: "d918ce736f8b67eb13c2f7da6edf4a630ce3c569"
+    sha: "68bf618cf3edf4df7e80c5544f7cdbe2a545e3be"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -215,7 +234,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: feature/anf-editor
-    sha: "13f68797ed43081a109607b26e52e60194d0c0db"
+    sha: "07ac85535c6994631aa6bf8a762ac317f0e946e5"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -235,7 +254,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/anf-editor
-    sha: "9bdaa507cfe1176f97f3365009ca5bdb440eddaa"
+    sha: "9a71af21b70994baee7e2f945317d7da88e85310"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -250,7 +269,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: feature/anf-editor
-    sha: "490c4b89942121656cadd6116b7e2d9fedba6a2e"
+    sha: "36d221a7739d1ba9448916ff46b47cac8e98c142"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -278,5 +297,8 @@ subprojects:
       - subproject: komet-grpc-plugin
         relationship: bundle
         version-property: komet-grpc-plugin.version
+      - subproject: komet-sequential-store-plugin
+        relationship: bundle
+        version-property: komet-sequential-store-plugin.version
       - subproject: ikm-reasoner
         relationship: build
