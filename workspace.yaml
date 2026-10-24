@@ -122,9 +122,6 @@ subprojects:
       - subproject: tinkar-core
         relationship: build
         version-property: chronology-store.version
-      - subproject: komet-sequential-store-plugin
-        relationship: build
-        version-property: komet-sequential-store-plugin.version
 
   tinkar-service:
     description: >
