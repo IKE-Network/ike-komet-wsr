@@ -122,6 +122,9 @@ subprojects:
       - subproject: tinkar-core
         relationship: build
         version-property: chronology-store.version
+      - subproject: komet-sequential-store-plugin
+        relationship: build
+        version-property: komet-sequential-store-plugin.version
 
   tinkar-service:
     description: >
@@ -141,6 +144,9 @@ subprojects:
       - subproject: tinkar-schema
         relationship: bundle
         version-property: tinkar-schema.version
+      - subproject: komet-sequential-store-plugin
+        relationship: build
+        version-property: komet-sequential-store-plugin.version
 
   komet-grpc-plugin:
     description: >
@@ -179,7 +185,13 @@ subprojects:
     branch: main
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
-    depends-on: []
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
+    depends-on:
+      - subproject: komet-bom
+        relationship: build
+        version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
 
 
 # Optional: IntelliJ project settings shared across collaborators.
