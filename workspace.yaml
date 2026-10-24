@@ -111,7 +111,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "474d4c88ed8c5399795e192b116be936c6880fb1"
+    sha: "2477456e2a15589873281f734cfe398ba8aa2cdd"
     version: "6"
     state: tag-aligned
     kind: release
@@ -216,7 +216,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "79b35b5513187299c172191f2b108f6155c43331"
+    sha: "4a7f1058093cd3d01bda2545a383c2808503e578"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
