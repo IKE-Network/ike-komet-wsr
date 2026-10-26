@@ -26,7 +26,7 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>206</version>
+        <version>211</version>
         <relativePath/>
     </parent>
 
@@ -133,12 +133,12 @@
         <subproject>tinkar-service</subproject>
         <subproject>komet-grpc-plugin</subproject>
         <subproject>ikm-reasoner</subproject>
+        <subproject>komet-sequential-store-plugin</subproject>
         <subproject>komet-bom</subproject>
         <subproject>tinkar-core</subproject>
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
-        <subproject>komet-sequential-store-plugin</subproject>
     </subprojects>
 
 </project>
