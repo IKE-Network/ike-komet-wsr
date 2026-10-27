@@ -6,9 +6,25 @@
 # dev-build-report-extension design note (ike-lab-documents) and
 # IKE-WORKSPACE.md "Accepted Maven 4 warning".
 mode: gate
+# Bounds on the session's measures (ike-issues#1207): a measure under its floor
+# is a finding and fails the gate; one above it by more than the slack is a
+# RATCHET opportunity the report names.
+measures:
+  - key: fidelity.score
+    at-least: 54.0
+    slack: 1.0
+    reason: >
+      Layout fidelity of the stamped document surface's first pass
+      (LayoutFidelityIT, komet-claude-plugin): the share of Typst's lines
+      the greedy JavaFX pass breaks exactly over the 22-document corpus in
+      src/test/resources/fidelity. 47.7 on 2026-10-20 after tuning the
+      spacing rules and the measure factor; 54.4 later that day with Typst's
+      hyphenation (hyph-en-us patterns, hypher's bounds) and its line cost in
+      the breaker; a drop means a rule or the measurement regressed, a rise a
+      tuning to ratchet in.
 accepted:
   - key: model-problem/bom-import-from-reactor
-    count: 9
+    count: 10
     reason: >
       The workspace BOM (komet-bom) is a living member of the working
       set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
@@ -17,6 +33,8 @@ accepted:
       unstable subset, so the derived count is the number of record.
       Tenth importer komet-grpc-plugin accepted 2026-08-11; nine since
       tinkar-composer left the working set (2026-10-05).
+      Ten again with komet-sequential-store-plugin (2026-10-23,
+      ike-issues#1313).
     since: 2026-08-11
 # Console warnings matching these texts are shown but not counted.
 console:
@@ -26,6 +44,12 @@ console:
         JVM startup notice for the incubating Vector API, printed
         wherever a JVM is launched with the module; expected and
         harmless.
+    - match: "WARNING: Using incubating API from an unnamed module:"
+      reason: >
+        JavaFX's notice for its incubating controls (rich text, input),
+        printed once per package in every JVM where class-path code uses
+        them, as tests on the class path do; no property turns it off. The
+        named-module counterpart is the JVM notice above.
     - match: "WARNING: signed modular JAR"
       reason: >
         jlink cannot carry JAR signatures into a runtime image and drops
