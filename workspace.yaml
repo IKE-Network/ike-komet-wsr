@@ -53,6 +53,7 @@ subprojects:
         relationship: build
       - subproject: komet-grpc-plugin
         relationship: build
+        version-property: komet-grpc-plugin.version
 
   komet-example-rules-plugin:
     description: >
@@ -138,6 +139,7 @@ subprojects:
         version-property: tinkar-core.version
       - subproject: rocks-kb
         relationship: build
+        version-property: rocks-kb.version
       - subproject: tinkar-schema
         relationship: bundle
         version-property: tinkar-schema.version
