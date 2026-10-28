@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "d07342211adc2f253658b4dcab361ba0a7d4aaa9"
+    sha: "ec1682c4ef23cf8f2120503406f6b891cd3ffd67"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -112,7 +112,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "219df14f1cb4f62d7aaac1dbccd436ebf22ea11f"
+    sha: "d0ed813223e525e38613c4f028d1349192f62aa9"
     version: "6"
     state: tag-aligned
     kind: release
@@ -218,7 +218,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "307527070c41d54d17ace1ad3718022119f345fb"
+    sha: "3b13476bccc636598698f18c3557d8e7eab1a12e"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
