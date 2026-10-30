@@ -26,7 +26,7 @@ subprojects:
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "e74f0ba707ac7778c03465c79485554a8e38f8c1"
+    sha: "d01f8bee90bbddcdd5b0bfa15c101c136d17fe3a"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "2cbcdd5e924085ba09c3cd4d92764afc93003726"
+    sha: "ec1682c4ef23cf8f2120503406f6b891cd3ffd67"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -61,7 +61,7 @@ subprojects:
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "4e29234b749b8d99344a0646d342592234c622b0"
+    sha: "5de3a0dd9c3a901d330414b8d5e25a8540203cad"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -81,7 +81,7 @@ subprojects:
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "00366f286494debfd947de234c992d71b8c85bba"
+    sha: "53ce18a224d018fb2d973733e5afca093b590bac"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -100,7 +100,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "aaff5c7c02736f26f5556febfa4b43648369338d"
+    sha: "0847f2ba1a2077183767f81afeb1bb6e441ff6bd"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -112,7 +112,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "8c3b5e7eca96fbcf47ce487497f421bde24e0cc1"
+    sha: "d0ed813223e525e38613c4f028d1349192f62aa9"
     version: "6"
     state: tag-aligned
     kind: release
@@ -129,7 +129,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "dd31aca42bb78ba7c54bc1e5d672d35ab4345a29"
+    sha: "092e551f29c27af72c43ad8c55f6c5b20eb61f2a"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -152,7 +152,7 @@ subprojects:
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "82ea532c7b68443237d7c10da85769b9618f882b"
+    sha: "261bfda15753f3f643088d099d1d4a146caf0ebe"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -171,7 +171,7 @@ subprojects:
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "ce3a18f221152231ced1ce1a15216e54a4e74f15"
+    sha: "15125e77d0e8d5c1f5f57c044dd478cab6b27065"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -182,7 +182,7 @@ subprojects:
       The sequential (32-bit) spined-array store as a Komet plugin, kept so a store on disk can be opened and migrated to the 64-bit store (ike-issues#1313)
     repo: https://github.com/komet-plugins/komet-sequential-store-plugin.git
     branch: main
-    sha: "1b70614b1a9e6fee06c8855e3eeac1990ec091f9"
+    sha: "bb205d2494960dc6766abb77de69f662d4d520e0"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -207,7 +207,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "c0d35069d9f82dda09b23a6d5ca86e5ab1aef49b"
+    sha: "a35e449681958da856c6ee9d6bd9b2f87e1f5920"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -218,7 +218,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "44b5116ce8ed233f6587abc184fc2c88a3f8e430"
+    sha: "3b13476bccc636598698f18c3557d8e7eab1a12e"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -236,7 +236,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "43ead1ec28a0239b064d7cd4551bbe9b89cfbf81"
+    sha: "f173da5c5e426f6d857cd30117dd98d8f4ce31ad"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -256,7 +256,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "02bfafa97e4873fa415185d106b3a8d0db68afa7"
+    sha: "014aebe9f4cd81170d034a41433875544dde7fcf"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -271,7 +271,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: feature/ncbi-gene-bulk-origin
-    sha: "45d0ae5c4a0014636c43e41c0ce24345f393a790"
+    sha: "97b83b84ca06fd233bf4e2da63f87400e25a214b"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
