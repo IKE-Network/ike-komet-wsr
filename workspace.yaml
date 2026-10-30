@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/anf-editor
+    branch: main
     sha: "d01f8bee90bbddcdd5b0bfa15c101c136d17fe3a"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/anf-editor
+    branch: main
     sha: "ec1682c4ef23cf8f2120503406f6b891cd3ffd67"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -60,7 +60,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/anf-editor
+    branch: main
     sha: "5de3a0dd9c3a901d330414b8d5e25a8540203cad"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -80,7 +80,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: feature/anf-editor
+    branch: main
     sha: "53ce18a224d018fb2d973733e5afca093b590bac"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -99,7 +99,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/anf-editor
+    branch: main
     sha: "0847f2ba1a2077183767f81afeb1bb6e441ff6bd"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -111,7 +111,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: feature/anf-editor
+    branch: main
     sha: "d0ed813223e525e38613c4f028d1349192f62aa9"
     version: "6"
     state: tag-aligned
@@ -128,7 +128,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/anf-editor
+    branch: main
     sha: "092e551f29c27af72c43ad8c55f6c5b20eb61f2a"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -151,7 +151,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: feature/anf-editor
+    branch: main
     sha: "261bfda15753f3f643088d099d1d4a146caf0ebe"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -170,7 +170,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: feature/anf-editor
+    branch: main
     sha: "15125e77d0e8d5c1f5f57c044dd478cab6b27065"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
@@ -206,7 +206,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/anf-editor
+    branch: main
     sha: "a35e449681958da856c6ee9d6bd9b2f87e1f5920"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -217,7 +217,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/anf-editor
+    branch: main
     sha: "3b13476bccc636598698f18c3557d8e7eab1a12e"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -235,7 +235,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/anf-editor
+    branch: main
     sha: "f173da5c5e426f6d857cd30117dd98d8f4ce31ad"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -255,7 +255,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/anf-editor
+    branch: main
     sha: "014aebe9f4cd81170d034a41433875544dde7fcf"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -270,7 +270,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/anf-editor
+    branch: main
     sha: "97b83b84ca06fd233bf4e2da63f87400e25a214b"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
