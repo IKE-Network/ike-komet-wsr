@@ -145,7 +145,7 @@ subprojects:
         version-property: tinkar-schema.version
       - subproject: komet-sequential-store-plugin
         relationship: build
-        version-property: komet-sequential-store-plugin.version
+        version-property: ike-starter-set.version
 
   komet-grpc-plugin:
     description: >
