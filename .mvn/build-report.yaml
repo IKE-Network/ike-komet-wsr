@@ -73,6 +73,15 @@ console:
       reason: >
         Problems in the published POMs of the springdoc dependency, met
         while collecting dependencies. Third-party; not fixable here.
+    - match: "an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary'"
+      reason: >
+        macOS 26 prints this NSXPCSharedListener error when a JVM starts
+        the native JavaFX toolkit for a user with no login session, as the
+        tabula TeamCity agent's LaunchDaemon user has none (2026-11-07).
+        Tests that only need the FX thread run under Monocle headless
+        (HeadlessFx) and print nothing; the render-critical ones
+        (PageDiagramIT, PageInlineIT, PageTableIT, komet-claude-plugin)
+        keep the native toolkit and print it once per JVM. Harmless.
     - match: "although no repository or mirror with this id is declared in settings"
       reason: >
         Maven 4 notes that server credentials from settings.xml are used
