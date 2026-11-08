@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "529cf6ea70aef9d6658bc7208ab128b24800a20f"
+    sha: "c03f563b8e81c64cd99a53243e0505f4cf15e5df"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -201,7 +201,7 @@ subprojects:
       The stamped document as a Komet plugin: AsciiDoc documents in git, read and edited line by line with each line's STAMP, on a block surface that pages and prints (ike-issues#1351)
     repo: https://github.com/komet-plugins/komet-stamped-document-plugin.git
     branch: main
-    sha: "c6cfc9a8fb911df64bd8ddd316348363ff1ad2ac"
+    sha: "c3c682d0acd8ba2da044aea6f53a1131f049c01c"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -242,7 +242,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "c062a4983c905b5ac3d4d6fbcaff4488aaf1459a"
+    sha: "5d4f1038b07a8b83cb873197381006b7d2a5ef65"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -295,7 +295,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "5284c71c767d1a8da3f5d724cf33285688de0615"
+    sha: "59dc0bcc32ac03d339667c8c6271d25aa14030c9"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
