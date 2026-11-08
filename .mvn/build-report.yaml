@@ -15,7 +15,7 @@ measures:
     slack: 1.0
     reason: >
       Layout fidelity of the stamped document surface's first pass
-      (LayoutFidelityIT, komet-claude-plugin): the share of Typst's lines
+      (LayoutFidelityIT, komet-stamped-document-plugin since 2026-11-07, ike-issues#1351; komet-claude-plugin before): the share of Typst's lines
       the greedy JavaFX pass breaks exactly over the 22-document corpus in
       src/test/resources/fidelity. 47.7 on 2026-10-20 after tuning the
       spacing rules and the measure factor; 54.4 later that day with Typst's
