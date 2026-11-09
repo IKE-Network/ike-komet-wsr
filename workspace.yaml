@@ -241,7 +241,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/gsrs_origin
+    branch: main
     sha: "5d4f1038b07a8b83cb873197381006b7d2a5ef65"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
