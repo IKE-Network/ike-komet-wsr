@@ -128,7 +128,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: main
+    branch: feature/remove_komet_web
     sha: "092e551f29c27af72c43ad8c55f6c5b20eb61f2a"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
