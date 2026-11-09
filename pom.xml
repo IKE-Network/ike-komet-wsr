@@ -140,6 +140,7 @@
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
         <subproject>komet-stamped-document-plugin</subproject>
+        <subproject>komet-web</subproject>
     </subprojects>
 
 </project>
