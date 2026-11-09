@@ -139,6 +139,7 @@
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>komet-stamped-document-plugin</subproject>
     </subprojects>
 
 </project>

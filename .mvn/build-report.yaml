@@ -15,7 +15,7 @@ measures:
     slack: 1.0
     reason: >
       Layout fidelity of the stamped document surface's first pass
-      (LayoutFidelityIT, komet-claude-plugin): the share of Typst's lines
+      (LayoutFidelityIT, komet-stamped-document-plugin since 2026-11-07, ike-issues#1351; komet-claude-plugin before): the share of Typst's lines
       the greedy JavaFX pass breaks exactly over the 22-document corpus in
       src/test/resources/fidelity. 47.7 on 2026-10-20 after tuning the
       spacing rules and the measure factor; 54.4 later that day with Typst's
@@ -24,7 +24,7 @@ measures:
       tuning to ratchet in.
 accepted:
   - key: model-problem/bom-import-from-reactor
-    count: 10
+    count: 11
     reason: >
       The workspace BOM (komet-bom) is a living member of the working
       set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
@@ -34,7 +34,8 @@ accepted:
       Tenth importer komet-grpc-plugin accepted 2026-08-11; nine since
       tinkar-composer left the working set (2026-10-05).
       Ten again with komet-sequential-store-plugin (2026-10-23,
-      ike-issues#1313).
+      ike-issues#1313). Eleven with komet-stamped-document-plugin
+      (2026-11-07, ike-issues#1351).
     since: 2026-08-11
 # Console warnings matching these texts are shown but not counted.
 console:
@@ -73,6 +74,15 @@ console:
       reason: >
         Problems in the published POMs of the springdoc dependency, met
         while collecting dependencies. Third-party; not fixable here.
+    - match: "an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary'"
+      reason: >
+        macOS 26 prints this NSXPCSharedListener error when a JVM starts
+        the native JavaFX toolkit for a user with no login session, as the
+        tabula TeamCity agent's LaunchDaemon user has none (2026-11-07).
+        Tests that only need the FX thread run under Monocle headless
+        (HeadlessFx) and print nothing; the render-critical ones
+        (PageDiagramIT, PageInlineIT, PageTableIT, komet-claude-plugin)
+        keep the native toolkit and print it once per JVM. Harmless.
     - match: "although no repository or mirror with this id is declared in settings"
       reason: >
         Maven 4 notes that server credentials from settings.xml are used
