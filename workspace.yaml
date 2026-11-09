@@ -221,6 +221,7 @@ subprojects:
     branch: main
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on: []
 
 
