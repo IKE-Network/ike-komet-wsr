@@ -54,6 +54,9 @@ subprojects:
       - subproject: komet-grpc-plugin
         relationship: build
         version-property: komet-grpc-plugin.version
+      - subproject: komet-stamped-document-plugin
+        relationship: build
+        version-property: komet-stamped-document-plugin.version
 
   komet-example-rules-plugin:
     description: >
