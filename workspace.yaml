@@ -56,7 +56,7 @@ subprojects:
         version-property: komet-grpc-plugin.version
       - subproject: komet-stamped-document-plugin
         relationship: build
-        version-property: ike-starter-set.version
+        version-property: komet-stamped-document-plugin.version
 
   komet-example-rules-plugin:
     description: >
@@ -148,7 +148,7 @@ subprojects:
         version-property: tinkar-schema.version
       - subproject: komet-sequential-store-plugin
         relationship: build
-        version-property: ike-starter-set.version
+        version-property: komet-sequential-store-plugin.version
 
   komet-grpc-plugin:
     description: >
@@ -162,6 +162,7 @@ subprojects:
     depends-on:
       - subproject: tinkar-schema
         relationship: bundle
+        version-property: tinkar-schema.version
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
@@ -340,4 +341,4 @@ subprojects:
         relationship: build
       - subproject: komet-stamped-document-plugin
         relationship: bundle
-        version-property: ike-starter-set.version
+        version-property: komet-stamped-document-plugin.version
