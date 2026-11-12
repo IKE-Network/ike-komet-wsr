@@ -221,7 +221,7 @@ subprojects:
   komet-web:
     description: >
       Add Komet Web
-    repo: https://github.com/icaglobal/komet-web.git
+    repo: https://github.com/knowledge-graphlet/komet-web.git
     branch: main
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
