@@ -221,7 +221,7 @@ subprojects:
   komet-web:
     description: >
       Add Komet Web
-    repo: https://github.com/knowledge-graphlet/komet-web.git
+    repo: https://github.com/icaglobal/komet-web.git
     branch: main
     sha: "aa1d85477a5bf6d6c2e89a0211f2de3a69b62eeb"
     version: "1-SNAPSHOT"
