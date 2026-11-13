@@ -25,7 +25,7 @@ subprojects:
     description: >
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "d2307e05c6dbc2a736ccec0bcea6c760cb6c1cb6"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
@@ -38,7 +38,7 @@ subprojects:
     description: >
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "c2394750e3f14c334c1d1d90c387efa8c2e5374b"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
@@ -63,7 +63,7 @@ subprojects:
       komet-example-rules-plugin subproject. Minimal RuleProvider rule-pack
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "fb1b9cf594423a7ff647c6af3ecc6c64fdfc1ad2"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -83,7 +83,7 @@ subprojects:
       complex-concept clauses (supra-DL) that exceed OWL EL++, explicated to CQL
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "d3f7ca5cdeb6a081b8890934c99a68ff40e269bd"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -102,7 +102,7 @@ subprojects:
     description: >
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "2622603b90f52d0eaafb4dc6058da81ddd38f5e2"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -114,7 +114,7 @@ subprojects:
     description: >
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "4e62c854801a2d22004398dc5f42db80adfe9f6d"
     version: "6"
     state: tag-aligned
@@ -131,7 +131,7 @@ subprojects:
     description: >
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "3800878f83284dd56e05d5d258062bb441cd2f79"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -154,7 +154,7 @@ subprojects:
     description: >
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "ede654a30ced71fc5820b19bb157361bedae4280"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
@@ -174,7 +174,7 @@ subprojects:
     description: >
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "2590534aa97cf4da406bf2898563f8e9627f97e3"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
@@ -185,7 +185,7 @@ subprojects:
     description: >
       The sequential (32-bit) spined-array store as a Komet plugin, kept so a store on disk can be opened and migrated to the 64-bit store (ike-issues#1313)
     repo: https://github.com/komet-plugins/komet-sequential-store-plugin.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "f499c8fba1b7155707aa7107de05a2810e0934da"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
@@ -201,7 +201,7 @@ subprojects:
     description: >
       The stamped document as a Komet plugin: AsciiDoc documents in git, read and edited line by line with each line's STAMP, on a block surface that pages and prints (ike-issues#1351)
     repo: https://github.com/komet-plugins/komet-stamped-document-plugin.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "cb0e8c217539d5a9862494a4a1ea67d122e18bef"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
@@ -222,7 +222,7 @@ subprojects:
     description: >
       Add Komet Web
     repo: https://github.com/icaglobal/komet-web.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "aa1d85477a5bf6d6c2e89a0211f2de3a69b62eeb"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
@@ -242,7 +242,7 @@ subprojects:
     description: >
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "2904d19843bae259cf8d6c4a29a5066b4cf2550c"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
@@ -253,7 +253,7 @@ subprojects:
     description: >
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "cdb1fcb006b4cf37c56773c400ad35f414636414"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
@@ -271,7 +271,7 @@ subprojects:
     description: >
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "037d15cc126d79e764d174205379eb23b9c6c9f0"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
@@ -291,7 +291,7 @@ subprojects:
     description: >
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "3d0b3d884a7b22c990aaa8cbd8832dd044966068"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
@@ -306,7 +306,7 @@ subprojects:
     description: >
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
-    branch: feature/grow-model-review
+    branch: main
     sha: "0d49dda3cf1e25c1d6a01c1471d815d4c153fa90"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
