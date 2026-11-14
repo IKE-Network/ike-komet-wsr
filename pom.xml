@@ -141,6 +141,7 @@
         <subproject>rocks-kb</subproject>
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>komet-text-knowledge-plugin</subproject>
     </subprojects>
 
 </project>
