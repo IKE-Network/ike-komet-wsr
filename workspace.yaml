@@ -243,6 +243,9 @@ subprojects:
         version-property: komet-bom.version
       - subproject: tinkar-core
         relationship: build
+      - subproject: komet-stamped-document-plugin
+        relationship: build
+        version-property: komet-stamped-document-plugin.version
 
 
 # Optional: IntelliJ project settings shared across collaborators.
