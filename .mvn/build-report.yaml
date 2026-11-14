@@ -24,7 +24,7 @@ measures:
       tuning to ratchet in.
 accepted:
   - key: model-problem/bom-import-from-reactor
-    count: 11
+    count: 12
     reason: >
       The workspace BOM (komet-bom) is a living member of the working
       set — accepted by design (IKE-WORKSPACE.md, ike-issues#977).
@@ -35,7 +35,8 @@ accepted:
       tinkar-composer left the working set (2026-10-05).
       Ten again with komet-sequential-store-plugin (2026-10-23,
       ike-issues#1313). Eleven with komet-stamped-document-plugin
-      (2026-11-07, ike-issues#1351).
+      (2026-11-07, ike-issues#1351). Twelve with
+      komet-text-knowledge-plugin (2026-11-13, ike-issues#1372).
     since: 2026-08-11
 # Console warnings matching these texts are shown but not counted.
 console:
