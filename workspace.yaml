@@ -241,6 +241,8 @@ subprojects:
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
 
 
 # Optional: IntelliJ project settings shared across collaborators.
