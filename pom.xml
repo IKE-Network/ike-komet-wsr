@@ -142,6 +142,7 @@
         <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
         <subproject>komet-text-knowledge-plugin</subproject>
+        <subproject>komet-guided-workflow-plugin</subproject>
     </subprojects>
 
 </project>
