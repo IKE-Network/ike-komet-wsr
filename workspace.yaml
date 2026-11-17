@@ -26,7 +26,7 @@ subprojects:
       Pandoc-style {.class #id} attribute extension for commonmark-java, aligned with AsciiDoc roles
     repo: https://github.com/ikmdev/ike-commonmark-attributes.git
     branch: main
-    sha: "d01f8bee90bbddcdd5b0bfa15c101c136d17fe3a"
+    sha: "d2307e05c6dbc2a736ccec0bcea6c760cb6c1cb6"
     version: 1.0.5-SNAPSHOT
     groupId: network.ike.platform
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "c03f563b8e81c64cd99a53243e0505f4cf15e5df"
+    sha: "2c0092a5892c87ad50db370f42d4e8223cfb71ab"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -64,7 +64,7 @@ subprojects:
       template (ike-issues#626).
     repo: https://github.com/knowledge-graphlet/komet-example-rules-plugin.git
     branch: main
-    sha: "5de3a0dd9c3a901d330414b8d5e25a8540203cad"
+    sha: "fb1b9cf594423a7ff647c6af3ecc6c64fdfc1ad2"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -84,7 +84,7 @@ subprojects:
       (ike-issues#628).
     repo: https://github.com/knowledge-graphlet/complex-clause-plugin.git
     branch: main
-    sha: "53ce18a224d018fb2d973733e5afca093b590bac"
+    sha: "d3f7ca5cdeb6a081b8890934c99a68ff40e269bd"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -103,7 +103,7 @@ subprojects:
       tinkar-schema subproject.
     repo: https://github.com/ikmdev/tinkar-schema.git
     branch: main
-    sha: "0847f2ba1a2077183767f81afeb1bb6e441ff6bd"
+    sha: "2622603b90f52d0eaafb4dc6058da81ddd38f5e2"
     version: 1.43.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -115,7 +115,7 @@ subprojects:
       Chronology-store implementation of the IKE knowledge-pipeline SPI
     repo: https://github.com/IKE-Network/ike-knowledge-provider.git
     branch: main
-    sha: "90e20130fe1c2a27505515f724596ae14a9654d8"
+    sha: "4e62c854801a2d22004398dc5f42db80adfe9f6d"
     version: "6"
     state: tag-aligned
     kind: release
@@ -132,7 +132,7 @@ subprojects:
       Standalone Spring Boot gRPC service exposing Tinkar APIs
     repo: https://github.com/icaglobal/tinkar-service.git
     branch: main
-    sha: "092e551f29c27af72c43ad8c55f6c5b20eb61f2a"
+    sha: "3800878f83284dd56e05d5d258062bb441cd2f79"
     version: 1.0.5-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -155,13 +155,14 @@ subprojects:
       gRPC-backed datastore and search provider for Komet
     repo: https://github.com/icaglobal/komet-grpc-plugin.git
     branch: main
-    sha: "261bfda15753f3f643088d099d1d4a146caf0ebe"
+    sha: "ede654a30ced71fc5820b19bb157361bedae4280"
     version: 6-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on:
       - subproject: tinkar-schema
         relationship: bundle
+        version-property: tinkar-schema.version
       - subproject: komet-bom
         relationship: build
         version-property: komet-bom.version
@@ -174,7 +175,7 @@ subprojects:
       ikm-reasoner subproject.
     repo: https://github.com/ikmdev/ikm-reasoner.git
     branch: main
-    sha: "f59dd6a5fe67c0473f928ed9d9bb8e4fcf9db987"
+    sha: "2590534aa97cf4da406bf2898563f8e9627f97e3"
     version: 0.40.1-SNAPSHOT
     groupId: dev.ikm.elk
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -185,7 +186,7 @@ subprojects:
       The sequential (32-bit) spined-array store as a Komet plugin, kept so a store on disk can be opened and migrated to the 64-bit store (ike-issues#1313)
     repo: https://github.com/komet-plugins/komet-sequential-store-plugin.git
     branch: main
-    sha: "33fe9d89013db67ec5b45465fa734c1d3e749d4e"
+    sha: "f499c8fba1b7155707aa7107de05a2810e0934da"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -201,7 +202,7 @@ subprojects:
       The stamped document as a Komet plugin: AsciiDoc documents in git, read and edited line by line with each line's STAMP, on a block surface that pages and prints (ike-issues#1351)
     repo: https://github.com/komet-plugins/komet-stamped-document-plugin.git
     branch: main
-    sha: "c3c682d0acd8ba2da044aea6f53a1131f049c01c"
+    sha: "375e6ee8ad6b9e1b8d93a54a60eef896b89ba179"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -222,10 +223,45 @@ subprojects:
       Add Komet Web
     repo: https://github.com/icaglobal/komet-web.git
     branch: main
+    sha: "78a043263290cfea5d60f4d15cc5349d1c3dedab"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
     depends-on: []
+
+  komet-text-knowledge-plugin:
+    description: >
+      Conceptification, ANFication and semantic indexing of stamped documents (IKE-Network/ike-issues#1372)
+    repo: https://github.com/komet-plugins/komet-text-knowledge-plugin.git
+    branch: main
+    sha: "ea59428ab1ca7e4322bedeaac15b5d3ac50f3ecd"
+    version: "1-SNAPSHOT"
+    groupId: network.ike.komet
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
+    depends-on:
+      - subproject: komet-bom
+        relationship: build
+        version-property: komet-bom.version
+      - subproject: tinkar-core
+        relationship: build
+      - subproject: komet-stamped-document-plugin
+        relationship: build
+        version-property: komet-stamped-document-plugin.version
+      - subproject: komet
+        relationship: build
+
+  komet-guided-workflow-plugin:
+    description: >
+      The guided workflow as a Komet plugin: a named list of steps shown on a card beside the document the steps write, with rules that give each step's state (IKE-Network/ike-issues#1390)
+    repo: https://github.com/komet-plugins/komet-guided-workflow-plugin.git
+    branch: main
+    version: "1-SNAPSHOT"
+    groupId: network.ike.komet
+    # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
+    depends-on:
+      - subproject: komet-bom
+        relationship: build
+        version-property: komet-bom.version
 
 
 # Optional: IntelliJ project settings shared across collaborators.
@@ -241,7 +277,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "909546f11bb3fe7bf52b8dfe65f845e67d7a011d"
+    sha: "b201679f62a38107fabbee877d15c738cbb5f2bc"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -252,7 +288,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "5d4f1038b07a8b83cb873197381006b7d2a5ef65"
+    sha: "648e625a0cf2d6a9a1918cc0dfdfaa48cd9c886c"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -270,7 +306,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "7d0f4d2fb10d5366cc9e71ed44e15ac8c154f6a5"
+    sha: "037d15cc126d79e764d174205379eb23b9c6c9f0"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -290,7 +326,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "920edaa1fd1bb17292363a87d34ef634d4e7adad"
+    sha: "6a026c0f04a22cb9776c05e77e1f8e7b9cabaad0"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -305,7 +341,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "59dc0bcc32ac03d339667c8c6271d25aa14030c9"
+    sha: "5157f40d94989fc73e4b70c175df84ef53e56e33"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -340,4 +376,7 @@ subprojects:
         relationship: build
       - subproject: komet-stamped-document-plugin
         relationship: bundle
-        version-property: ike-starter-set.version
+        version-property: komet-stamped-document-plugin.version
+      - subproject: komet-text-knowledge-plugin
+        relationship: bundle
+        version-property: komet-text-knowledge-plugin.version
