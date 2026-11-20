@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: main
-    sha: "2c0092a5892c87ad50db370f42d4e8223cfb71ab"
+    sha: "91c0f0c4cf94f14ced517b0cc33213a788274684"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -202,7 +202,7 @@ subprojects:
       The stamped document as a Komet plugin: AsciiDoc documents in git, read and edited line by line with each line's STAMP, on a block surface that pages and prints (ike-issues#1351)
     repo: https://github.com/komet-plugins/komet-stamped-document-plugin.git
     branch: main
-    sha: "375e6ee8ad6b9e1b8d93a54a60eef896b89ba179"
+    sha: "f253e2b296688e0e609f893455d7ca91f4e5c8ad"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -234,7 +234,7 @@ subprojects:
       Conceptification, ANFication and semantic indexing of stamped documents (IKE-Network/ike-issues#1372)
     repo: https://github.com/komet-plugins/komet-text-knowledge-plugin.git
     branch: main
-    sha: "ea59428ab1ca7e4322bedeaac15b5d3ac50f3ecd"
+    sha: "86bcd8078838fddb3fbc912ed4edcc6a31243f5e"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -255,6 +255,7 @@ subprojects:
       The guided workflow as a Komet plugin: a named list of steps shown on a card beside the document the steps write, with rules that give each step's state (IKE-Network/ike-issues#1390)
     repo: https://github.com/komet-plugins/komet-guided-workflow-plugin.git
     branch: main
+    sha: "ae0aefda7758fc2ea43dca25c77de3ec87c461de"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -277,7 +278,7 @@ subprojects:
       komet-bom subproject.
     repo: https://github.com/ikmdev/komet-bom.git
     branch: main
-    sha: "b201679f62a38107fabbee877d15c738cbb5f2bc"
+    sha: "fca38d788d5b5ece593c1a477b1612a18e48f00a"
     version: 3.0.12-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -288,7 +289,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: main
-    sha: "648e625a0cf2d6a9a1918cc0dfdfaa48cd9c886c"
+    sha: "e48587266e68340d7496e32e1a105569ebbda202"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -306,7 +307,7 @@ subprojects:
       rocks-kb subproject.
     repo: https://github.com/ikmdev/rocks-kb.git
     branch: main
-    sha: "037d15cc126d79e764d174205379eb23b9c6c9f0"
+    sha: "e45b356a7c8b6f6ac453c730d084dbaf3e8772dc"
     version: 0.1.5-SNAPSHOT
     groupId: dev.ikm.ike
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -326,7 +327,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: main
-    sha: "6a026c0f04a22cb9776c05e77e1f8e7b9cabaad0"
+    sha: "2961e01df9bfd43691d165f54945de886c5660e9"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -341,7 +342,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: main
-    sha: "5157f40d94989fc73e4b70c175df84ef53e56e33"
+    sha: "87e45c27fbe7aa97737040e1fabdf566911f545c"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
