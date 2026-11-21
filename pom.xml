@@ -45,6 +45,15 @@
              detection sees their real release history. -->
         <ike.release.tagStyle>BARE</ike.release.tagStyle>
         <java.version>27</java.version>
+        <!-- The oldest JDK 27 build this working set may be built on, in the
+             spelling requireJavaVersion compares: the rule rewrites the JDK's
+             four-part 27.0.1.1 as 27.0.1-1, and a range written [27.0.1.1,)
+             refuses 27.0.1.1 itself. 27.0.1.1 carries the November 2026
+             security fixes, and an installer's runtime is jlinked from the
+             JDK running Maven (IKE-Network/ike-issues#1393). java.version
+             stays the feature release: it is the compiler release, and the
+             CI scripts read it to choose JDK_27_0. -->
+        <java.minimum.build>27.0.1-1</java.minimum.build>
     </properties>
 
     <!-- Locally declared so the cascade's coordinate-to-repository
@@ -102,7 +111,9 @@
                          ${java.version}, and komet-desktop's jlink image is built from the JDK
                          running Maven, so Maven itself must run on that JDK. Fail fast rather
                          than build classes or an image an older JDK cannot run
-                         (IKE-Network/ike-issues#1143). -->
+                         (IKE-Network/ike-issues#1143), or an installer whose runtime lacks
+                         the security fixes of java.minimum.build
+                         (IKE-Network/ike-issues#1393). -->
                     <execution>
                         <id>enforce-working-set-jdk</id>
                         <goals>
@@ -111,8 +122,8 @@
                         <configuration>
                             <rules>
                                 <requireJavaVersion>
-                                    <version>[${java.version},)</version>
-                                    <message>This working set requires Maven to run on JDK ${java.version} or later (set JAVA_HOME, and IntelliJ's project and Maven runner JDK).</message>
+                                    <version>[${java.minimum.build},)</version>
+                                    <message>This working set requires Maven to run on JDK 27.0.1.1 or later (set JAVA_HOME, and IntelliJ's project and Maven runner JDK). Builds are at https://jdk.java.net/27/.</message>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
