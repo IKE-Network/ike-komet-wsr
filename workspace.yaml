@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/annotation-faults
-    sha: "fac86104c99598e96802468836205d8e7913095d"
+    sha: "3c5d9b93424e08d8f5f95fcdc48a2dbfe02deb50"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -202,7 +202,7 @@ subprojects:
       The stamped document as a Komet plugin: AsciiDoc documents in git, read and edited line by line with each line's STAMP, on a block surface that pages and prints (ike-issues#1351)
     repo: https://github.com/komet-plugins/komet-stamped-document-plugin.git
     branch: feature/annotation-faults
-    sha: "533a961a4b7efb3250e76761237287b77b5c84f8"
+    sha: "571e780f25faec47c771be0d6e8b7e30002a3eb2"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -289,7 +289,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/annotation-faults
-    sha: "7f41dfd6be43a639f498f056602799b898dd1b65"
+    sha: "f806bdb20fb2fbab134424a6f23af34c1787a259"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -327,7 +327,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/annotation-faults
-    sha: "638be635fa089ad09df0d0744d4cb6f11c43b763"
+    sha: "34fc2e974916319d0947d354f5de9229e86538db"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
