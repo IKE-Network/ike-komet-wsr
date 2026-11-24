@@ -39,7 +39,7 @@ subprojects:
       komet-claude-plugin subproject.
     repo: https://github.com/knowledge-graphlet/komet-claude-plugin.git
     branch: feature/data-removal
-    sha: "91c0f0c4cf94f14ced517b0cc33213a788274684"
+    sha: "fac86104c99598e96802468836205d8e7913095d"
     version: 7-SNAPSHOT
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -202,7 +202,7 @@ subprojects:
       The stamped document as a Komet plugin: AsciiDoc documents in git, read and edited line by line with each line's STAMP, on a block surface that pages and prints (ike-issues#1351)
     repo: https://github.com/komet-plugins/komet-stamped-document-plugin.git
     branch: feature/data-removal
-    sha: "f253e2b296688e0e609f893455d7ca91f4e5c8ad"
+    sha: "533a961a4b7efb3250e76761237287b77b5c84f8"
     version: "1-SNAPSHOT"
     groupId: network.ike.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -289,7 +289,7 @@ subprojects:
       tinkar-core subproject.
     repo: https://github.com/ikmdev/tinkar-core.git
     branch: feature/data-removal
-    sha: "e48587266e68340d7496e32e1a105569ebbda202"
+    sha: "7f41dfd6be43a639f498f056602799b898dd1b65"
     version: 1.127.7-SNAPSHOT
     groupId: dev.ikm.tinkar
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -327,7 +327,7 @@ subprojects:
       komet subproject.
     repo: https://github.com/ikmdev/komet.git
     branch: feature/data-removal
-    sha: "2961e01df9bfd43691d165f54945de886c5660e9"
+    sha: "638be635fa089ad09df0d0744d4cb6f11c43b763"
     version: 1.59.5-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
@@ -342,7 +342,7 @@ subprojects:
       komet-desktop subproject.
     repo: https://github.com/ikmdev/komet-desktop.git
     branch: feature/data-removal
-    sha: "87e45c27fbe7aa97737040e1fabdf566911f545c"
+    sha: "a4b67d181d17b734e79866594b1fc3fc64978300"
     version: 3.0.6-SNAPSHOT
     groupId: dev.ikm.komet
     # ── managed: depends-on is derived from POMs by ws goals; build edges are machine-owned, other relationships are preserved (ike-issues#964) ──
